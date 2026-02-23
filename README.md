@@ -13,4 +13,4 @@ Central marketplace for Claude Code plugins by xiaolai.
 | Plugin | Description | Install |
 |--------|-------------|---------|
 | [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | `/plugin install codex-toolkit@xiaolai` |
-| [tdd-guardian-for-claude](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | `/plugin install tdd-guardian-for-claude@xiaolai` |
+| [tdd-guardian](https://github.com/xiaolai/tdd-guardian) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | `/plugin install tdd-guardian@xiaolai` |

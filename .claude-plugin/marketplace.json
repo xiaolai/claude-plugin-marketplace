@@ -24,17 +24,17 @@
       "category": "developer-tools"
     },
     {
-      "name": "tdd-guardian-for-claude",
+      "name": "tdd-guardian",
       "source": {
         "source": "github",
-        "repo": "xiaolai/tdd-guardian-for-claude"
+        "repo": "xiaolai/tdd-guardian"
       },
       "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.2.0",
+      "version": "0.3.0",
       "author": {
         "name": "xiaolai"
       },
-      "repository": "https://github.com/xiaolai/tdd-guardian-for-claude",
+      "repository": "https://github.com/xiaolai/tdd-guardian",
       "license": "MIT",
       "keywords": ["tdd", "testing", "coverage", "mutation-testing", "code-quality"],
       "category": "developer-tools"
