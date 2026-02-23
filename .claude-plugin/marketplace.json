@@ -1,0 +1,43 @@
+{
+  "name": "xiaolai",
+  "owner": {
+    "name": "xiaolai"
+  },
+  "metadata": {
+    "description": "Claude Code plugins by xiaolai"
+  },
+  "plugins": [
+    {
+      "name": "codex-toolkit",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/codex-toolkit-for-claude"
+      },
+      "description": "Audit, implement, verify, review, and debug via OpenAI Codex MCP",
+      "version": "0.3.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/codex-toolkit-for-claude",
+      "license": "MIT",
+      "keywords": ["codex", "openai", "audit", "mcp", "code-review"],
+      "category": "developer-tools"
+    },
+    {
+      "name": "tdd-guardian-for-claude",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/tdd-guardian-for-claude"
+      },
+      "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/tdd-guardian-for-claude",
+      "license": "MIT",
+      "keywords": ["tdd", "testing", "coverage", "mutation-testing", "code-quality"],
+      "category": "developer-tools"
+    }
+  ]
+}
