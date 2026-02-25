@@ -46,7 +46,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for decisions, mistakes, patterns, and wisdom — zero dependencies, lets Claude reason over raw history",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "xiaolai"
       },
