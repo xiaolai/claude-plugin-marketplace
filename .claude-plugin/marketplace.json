@@ -38,6 +38,22 @@
       "license": "MIT",
       "keywords": ["tdd", "testing", "coverage", "mutation-testing", "code-quality"],
       "category": "developer-tools"
+    },
+    {
+      "name": "echo-sleuth",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/echo-sleuth-for-claude"
+      },
+      "description": "Mine past Claude Code conversations for decisions, mistakes, patterns, and wisdom — zero dependencies, lets Claude reason over raw history",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/echo-sleuth-for-claude",
+      "license": "MIT",
+      "keywords": ["conversation-history", "session-recall", "experience-mining", "git-history", "decision-archaeology"],
+      "category": "developer-tools"
     }
   ]
 }
