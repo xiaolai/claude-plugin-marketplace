@@ -30,7 +30,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.4.0",
+      "version": "0.5.0",
       "author": {
         "name": "xiaolai"
       },
