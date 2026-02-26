@@ -54,6 +54,22 @@
       "license": "MIT",
       "keywords": ["conversation-history", "session-recall", "experience-mining", "git-history", "decision-archaeology"],
       "category": "developer-tools"
+    },
+    {
+      "name": "loc-guardian",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/loc-guardian-for-claude"
+      },
+      "description": "Enforce per-file pure LOC limits with automated optimization strategies — counts, flags violations, and provides opus-powered extraction plans",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/loc-guardian-for-claude",
+      "license": "MIT",
+      "keywords": ["loc", "lines-of-code", "metrics", "tokei", "code-quality", "file-size-limits"],
+      "category": "developer-tools"
     }
   ]
 }
