@@ -70,6 +70,22 @@
       "license": "MIT",
       "keywords": ["loc", "lines-of-code", "metrics", "tokei", "code-quality", "file-size-limits"],
       "category": "developer-tools"
+    },
+    {
+      "name": "grill",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/grill-for-claude"
+      },
+      "description": "Deep codebase interrogation — multi-angle architecture review with 5 specialized agents, 4 review styles, and 8 add-on pressure tests",
+      "version": "1.0.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/grill-for-claude",
+      "license": "MIT",
+      "keywords": ["code-review", "architecture", "interrogation", "audit", "codebase-analysis"],
+      "category": "developer-tools"
     }
   ]
 }
