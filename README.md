@@ -4,16 +4,56 @@ Central marketplace for Claude Code plugins by xiaolai.
 
 ## Installation
 
-```
-/plugin marketplace add xiaolai/claude-plugin-marketplace
+```bash
+claude plugin marketplace add xiaolai/claude-plugin-marketplace
 ```
 
-## Available plugins
+## Available Plugins
 
-| Plugin | Description | Install |
+| Plugin | Description | Version |
 |--------|-------------|---------|
-| [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | `/plugin install codex-toolkit@xiaolai` |
-| [tdd-guardian](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | `/plugin install tdd-guardian@xiaolai` |
-| [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations for decisions, mistakes, patterns, and wisdom | `/plugin install echo-sleuth@xiaolai` |
-| [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | `/plugin install loc-guardian@xiaolai` |
-| [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 5 specialized agents, 4 review styles, and 8 add-on pressure tests | `/plugin install grill@xiaolai` |
+| [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | 0.3.0 |
+| [tdd-guardian](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | 0.5.0 |
+| [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations for decisions, mistakes, patterns, and wisdom | 0.2.0 |
+| [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.0 |
+| [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 5 specialized agents, 4 review styles, and 8 add-on pressure tests | 1.0.0 |
+
+## Installing Plugins
+
+### Global (all projects)
+
+```bash
+claude plugin install codex-toolkit@xiaolai --scope user
+claude plugin install tdd-guardian@xiaolai --scope user
+claude plugin install echo-sleuth@xiaolai --scope user
+claude plugin install loc-guardian@xiaolai --scope user
+claude plugin install grill@xiaolai --scope user
+```
+
+### Project only (current project)
+
+```bash
+claude plugin install codex-toolkit@xiaolai --scope project
+claude plugin install tdd-guardian@xiaolai --scope project
+claude plugin install echo-sleuth@xiaolai --scope project
+claude plugin install loc-guardian@xiaolai --scope project
+claude plugin install grill@xiaolai --scope project
+```
+
+### Scope reference
+
+| Scope | Flag | Effect |
+|-------|------|--------|
+| User (global) | `--scope user` | Available in all projects (default) |
+| Project | `--scope project` | Shared with team via `.claude/plugins.json` |
+| Local | `--scope local` | Local only, not committed to git |
+
+## Managing Plugins
+
+```bash
+claude plugin list                           # List installed plugins
+claude plugin update grill@xiaolai           # Update to latest version
+claude plugin disable grill@xiaolai          # Temporarily disable
+claude plugin enable grill@xiaolai           # Re-enable
+claude plugin uninstall grill@xiaolai        # Remove
+```
