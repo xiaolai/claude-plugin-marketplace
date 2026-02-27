@@ -13,8 +13,8 @@
         "source": "github",
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
-      "description": "Audit, implement, verify, review, and debug via OpenAI Codex MCP",
-      "version": "0.4.0",
+      "description": "OpenAI Codex MCP integration for Claude Code — audit, implement, verify, review, and debug via Codex",
+      "version": "0.4.1",
       "author": {
         "name": "xiaolai"
       },
@@ -30,7 +30,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.5.0",
+      "version": "0.5.1",
       "author": {
         "name": "xiaolai"
       },
@@ -46,7 +46,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for decisions, mistakes, patterns, and wisdom — zero dependencies, lets Claude reason over raw history",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "xiaolai"
       },
@@ -62,7 +62,7 @@
         "repo": "xiaolai/loc-guardian-for-claude"
       },
       "description": "Enforce per-file pure LOC limits with automated optimization strategies — counts, flags violations, and provides opus-powered extraction plans",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
@@ -78,7 +78,7 @@
         "repo": "xiaolai/grill-for-claude"
       },
       "description": "Deep codebase interrogation — multi-angle architecture review with 5 specialized agents, 4 review styles, and 8 add-on pressure tests",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "xiaolai"
       },
