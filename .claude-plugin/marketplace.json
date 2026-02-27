@@ -14,7 +14,7 @@
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
       "description": "Audit, implement, verify, review, and debug via OpenAI Codex MCP",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "xiaolai"
       },
