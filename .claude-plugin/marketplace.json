@@ -77,8 +77,8 @@
         "source": "github",
         "repo": "xiaolai/grill-for-claude"
       },
-      "description": "Deep codebase interrogation — multi-angle architecture review with 5 specialized agents, 4 review styles, and 8 add-on pressure tests",
-      "version": "1.0.1",
+      "description": "Deep codebase interrogation — multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
+      "version": "1.1.0",
       "author": {
         "name": "xiaolai"
       },
