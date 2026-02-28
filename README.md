@@ -17,6 +17,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations for decisions, mistakes, patterns, and wisdom | 0.2.1 |
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.1 |
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 6 specialized agents, 5 review styles, and 8 add-on pressure tests | 1.2.0 |
+| [docs-guardian](https://github.com/xiaolai/docs-guardian-for-claude) | Docs Guardian — documentation quality and freshness enforcer with staleness detection, accuracy checking, and auto-generation | 0.1.0 |
 
 ## Installing Plugins
 
@@ -28,6 +29,7 @@ claude plugin install tdd-guardian@xiaolai --scope user
 claude plugin install echo-sleuth@xiaolai --scope user
 claude plugin install loc-guardian@xiaolai --scope user
 claude plugin install grill@xiaolai --scope user
+claude plugin install docs-guardian@xiaolai --scope user
 ```
 
 ### Project only (current project)
@@ -38,6 +40,7 @@ claude plugin install tdd-guardian@xiaolai --scope project
 claude plugin install echo-sleuth@xiaolai --scope project
 claude plugin install loc-guardian@xiaolai --scope project
 claude plugin install grill@xiaolai --scope project
+claude plugin install docs-guardian@xiaolai --scope project
 ```
 
 ### Scope reference
