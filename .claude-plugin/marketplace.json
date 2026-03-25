@@ -45,8 +45,8 @@
         "source": "github",
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
-      "description": "Mine past Claude Code conversations for decisions, mistakes, patterns, and wisdom — zero dependencies, lets Claude reason over raw history",
-      "version": "0.2.1",
+      "description": "Mine past Claude Code conversations for decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
+      "version": "0.3.0",
       "author": {
         "name": "xiaolai"
       },
