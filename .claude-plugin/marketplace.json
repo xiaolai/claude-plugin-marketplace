@@ -102,6 +102,22 @@
       "license": "MIT",
       "keywords": ["documentation", "docs", "staleness", "coverage", "quality", "freshness"],
       "category": "developer-tools"
+    },
+    {
+      "name": "nlpm",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/nlpm-for-claude"
+      },
+      "description": "Natural-Language Programming Manager — scan, lint, and score NL artifacts (skills, agents, commands, rules, hooks, prompts) with Claude-native quality scoring",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/nlpm-for-claude",
+      "license": "MIT",
+      "keywords": ["nlp", "lint", "prompt", "skill", "agent", "rules", "quality"],
+      "category": "developer-tools"
     }
   ]
 }

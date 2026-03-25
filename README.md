@@ -18,6 +18,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.2 |
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 6 specialized agents, 5 review styles, and 8 add-on pressure tests | 1.2.0 |
 | [docs-guardian](https://github.com/xiaolai/docs-guardian-for-claude) | Docs Guardian — documentation quality and freshness enforcer with staleness detection, accuracy checking, and auto-generation | 0.1.0 |
+| [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, lint, and score NL artifacts (skills, agents, commands, rules, hooks) with Claude-native quality scoring | 0.1.0 |
 
 ## Installing Plugins
 
