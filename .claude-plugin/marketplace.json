@@ -110,7 +110,7 @@
         "repo": "xiaolai/nlpm-for-claude"
       },
       "description": "Natural-Language Programming Manager — scan, lint, and score NL artifacts (skills, agents, commands, rules, hooks, prompts) with Claude-native quality scoring",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "xiaolai"
       },
