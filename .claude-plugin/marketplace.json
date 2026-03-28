@@ -109,8 +109,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager — scan, lint, and score NL artifacts (skills, agents, commands, rules, hooks, prompts) with Claude-native quality scoring",
-      "version": "0.4.0",
+      "description": "Natural-Language Programming Manager — scan, lint, score, fix, and trend-track NL artifacts with Claude-native quality scoring and the 50 Rules",
+      "version": "0.4.1",
       "author": {
         "name": "xiaolai"
       },
