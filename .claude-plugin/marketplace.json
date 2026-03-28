@@ -118,6 +118,22 @@
       "license": "MIT",
       "keywords": ["nlp", "lint", "prompt", "skill", "agent", "rules", "quality"],
       "category": "developer-tools"
+    },
+    {
+      "name": "awful",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/awful-for-claude"
+      },
+      "description": "Agent Workflow Framework Using Labels — design, generate, and audit agent workflows driven by GitHub events",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/awful-for-claude",
+      "license": "MIT",
+      "keywords": ["agent", "workflow", "github-actions", "automation", "labels", "events"],
+      "category": "developer-tools"
     }
   ]
 }
