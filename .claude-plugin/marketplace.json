@@ -20,7 +20,13 @@
       },
       "repository": "https://github.com/xiaolai/codex-toolkit-for-claude",
       "license": "MIT",
-      "keywords": ["codex", "openai", "audit", "mcp", "code-review"],
+      "keywords": [
+        "codex",
+        "openai",
+        "audit",
+        "mcp",
+        "code-review"
+      ],
       "category": "developer-tools"
     },
     {
@@ -30,13 +36,19 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.6.2",
+      "version": "0.6.4",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/tdd-guardian-for-claude",
       "license": "MIT",
-      "keywords": ["tdd", "testing", "coverage", "mutation-testing", "code-quality"],
+      "keywords": [
+        "tdd",
+        "testing",
+        "coverage",
+        "mutation-testing",
+        "code-quality"
+      ],
       "category": "developer-tools"
     },
     {
@@ -52,7 +64,13 @@
       },
       "repository": "https://github.com/xiaolai/echo-sleuth-for-claude",
       "license": "MIT",
-      "keywords": ["conversation-history", "session-recall", "experience-mining", "git-history", "decision-archaeology"],
+      "keywords": [
+        "conversation-history",
+        "session-recall",
+        "experience-mining",
+        "git-history",
+        "decision-archaeology"
+      ],
       "category": "developer-tools"
     },
     {
@@ -68,7 +86,14 @@
       },
       "repository": "https://github.com/xiaolai/loc-guardian-for-claude",
       "license": "MIT",
-      "keywords": ["loc", "lines-of-code", "metrics", "tokei", "code-quality", "file-size-limits"],
+      "keywords": [
+        "loc",
+        "lines-of-code",
+        "metrics",
+        "tokei",
+        "code-quality",
+        "file-size-limits"
+      ],
       "category": "developer-tools"
     },
     {
@@ -84,7 +109,13 @@
       },
       "repository": "https://github.com/xiaolai/grill-for-claude",
       "license": "MIT",
-      "keywords": ["code-review", "architecture", "interrogation", "audit", "codebase-analysis"],
+      "keywords": [
+        "code-review",
+        "architecture",
+        "interrogation",
+        "audit",
+        "codebase-analysis"
+      ],
       "category": "developer-tools"
     },
     {
@@ -94,13 +125,20 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.2",
+      "version": "0.1.4",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/docs-guardian-for-claude",
       "license": "MIT",
-      "keywords": ["documentation", "docs", "staleness", "coverage", "quality", "freshness"],
+      "keywords": [
+        "documentation",
+        "docs",
+        "staleness",
+        "coverage",
+        "quality",
+        "freshness"
+      ],
       "category": "developer-tools"
     },
     {
@@ -110,13 +148,21 @@
         "repo": "xiaolai/nlpm-for-claude"
       },
       "description": "Natural-Language Programming Manager — scan, lint, score, fix, test (TDD), and trend-track NL artifacts with Claude-native quality scoring and the 50 Rules",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/nlpm-for-claude",
       "license": "MIT",
-      "keywords": ["nlp", "lint", "prompt", "skill", "agent", "rules", "quality"],
+      "keywords": [
+        "nlp",
+        "lint",
+        "prompt",
+        "skill",
+        "agent",
+        "rules",
+        "quality"
+      ],
       "category": "developer-tools"
     },
     {
@@ -132,7 +178,14 @@
       },
       "repository": "https://github.com/xiaolai/awful-for-claude",
       "license": "MIT",
-      "keywords": ["agent", "workflow", "github-actions", "automation", "labels", "events"],
+      "keywords": [
+        "agent",
+        "workflow",
+        "github-actions",
+        "automation",
+        "labels",
+        "events"
+      ],
       "category": "developer-tools"
     }
   ]
