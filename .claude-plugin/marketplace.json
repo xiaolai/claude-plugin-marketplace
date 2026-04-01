@@ -187,6 +187,29 @@
         "events"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "claude-english-buddy",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/claude-english-buddy-for-claude"
+      },
+      "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
+      "version": "0.2.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/claude-english-buddy-for-claude",
+      "license": "MIT",
+      "keywords": [
+        "english",
+        "language",
+        "coaching",
+        "grammar",
+        "translation",
+        "non-native"
+      ],
+      "category": "developer-tools"
     }
   ]
 }

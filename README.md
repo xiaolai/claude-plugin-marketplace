@@ -19,6 +19,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 6 specialized agents, 5 review styles, and 8 add-on pressure tests | 1.2.1 |
 | [docs-guardian](https://github.com/xiaolai/docs-guardian-for-claude) | Docs Guardian — documentation quality and freshness enforcer with staleness detection, accuracy checking, and auto-generation | 0.1.4 |
 | [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, lint, score, fix, and trend-track NL artifacts with Claude-native quality scoring and the 50 Rules | 0.6.2 |
+| [claude-english-buddy](https://github.com/xiaolai/claude-english-buddy-for-claude) | English language coach — auto-corrects prompts, translates non-English, tracks improvement over time | 0.2.0 |
 | [awful](https://github.com/xiaolai/awful-for-claude) | awful — design, generate, and audit agent workflows driven by GitHub events using labels as routing | 0.1.0 |
 
 ## Installing Plugins
