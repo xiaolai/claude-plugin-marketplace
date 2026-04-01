@@ -12,7 +12,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | 0.7.4 |
+| [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | 0.8.1 |
 | [tdd-guardian](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | 0.6.4 |
 | [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations, manage memory lifecycle, extract knowledge | 0.3.2 |
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.2 |
