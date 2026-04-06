@@ -13,8 +13,8 @@
         "source": "github",
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
-      "description": "OpenAI Codex MCP integration for Claude Code — audit, implement, verify, review, and debug via Codex",
-      "version": "0.8.1",
+      "description": "OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
+      "version": "0.8.2",
       "author": {
         "name": "xiaolai"
       },
@@ -35,8 +35,8 @@
         "source": "github",
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
-      "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.6.4",
+      "description": "Enforces strict TDD discipline \u2014 test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
+      "version": "0.6.5",
       "author": {
         "name": "xiaolai"
       },
@@ -58,7 +58,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for values, decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "xiaolai"
       },
@@ -79,8 +79,8 @@
         "source": "github",
         "repo": "xiaolai/loc-guardian-for-claude"
       },
-      "description": "Enforce per-file pure LOC limits with automated optimization strategies — counts, flags violations, and provides opus-powered extraction plans",
-      "version": "0.1.2",
+      "description": "Enforce per-file pure LOC limits with automated optimization strategies \u2014 counts, flags violations, and provides opus-powered extraction plans",
+      "version": "0.1.3",
       "author": {
         "name": "xiaolai"
       },
@@ -102,8 +102,8 @@
         "source": "github",
         "repo": "xiaolai/grill-for-claude"
       },
-      "description": "Deep codebase interrogation — multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
-      "version": "1.2.1",
+      "description": "Deep codebase interrogation \u2014 multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
+      "version": "1.2.2",
       "author": {
         "name": "xiaolai"
       },
@@ -124,8 +124,8 @@
         "source": "github",
         "repo": "xiaolai/docs-guardian-for-claude"
       },
-      "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.4",
+      "description": "Documentation quality and freshness enforcer \u2014 detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
+      "version": "0.1.5",
       "author": {
         "name": "xiaolai"
       },
@@ -147,7 +147,7 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager — scan, score, check, fix, test (TDD), and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules",
       "version": "0.7.0",
       "author": {
         "name": "xiaolai"
@@ -171,8 +171,8 @@
         "source": "github",
         "repo": "xiaolai/awful-for-claude"
       },
-      "description": "Agent Workflow Framework Using Labels — design, generate, and audit agent workflows driven by GitHub events",
-      "version": "0.1.0",
+      "description": "Agent Workflow Framework Using Labels \u2014 design, generate, and audit agent workflows driven by GitHub events",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
@@ -194,8 +194,8 @@
         "source": "github",
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
-      "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.2.2",
+      "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
+      "version": "0.2.3",
       "author": {
         "name": "xiaolai"
       },
@@ -210,6 +210,30 @@
         "non-native"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "reading-assistant",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/reading-assistant-for-claude"
+      },
+      "description": "Process EPUB books into summaries, knowledge extractions, Obsidian notes, and RAG databases",
+      "version": "0.1.1",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/reading-assistant-for-claude",
+      "license": "MIT",
+      "keywords": [
+        "epub",
+        "reading",
+        "summarization",
+        "obsidian",
+        "rag",
+        "zettelkasten",
+        "book-review"
+      ],
+      "category": "productivity"
     }
   ]
 }
