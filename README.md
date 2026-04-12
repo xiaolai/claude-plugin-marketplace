@@ -18,7 +18,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.3 |
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 6 specialized agents, 5 review styles, and 8 add-on pressure tests | 1.2.2 |
 | [docs-guardian](https://github.com/xiaolai/docs-guardian-for-claude) | Docs Guardian — documentation quality and freshness enforcer with staleness detection, accuracy checking, and auto-generation | 0.1.5 |
-| [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, score, check, fix, test, security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules | 0.7.2 |
+| [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, score, check, fix, test, security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules | 0.7.3 |
 | [claude-english-buddy](https://github.com/xiaolai/claude-english-buddy-for-claude) | English language coach — auto-corrects prompts, translates non-English, tracks improvement over time | 0.2.3 |
 | [awful](https://github.com/xiaolai/awful-for-claude) | awful — design, generate, and audit agent workflows driven by GitHub events using labels as routing | 0.1.1 |
 | [reading-assistant](https://github.com/xiaolai/reading-assistant-for-claude) | Process EPUB books into summaries, knowledge extractions, Obsidian notes, and RAG databases | 0.1.1 |
