@@ -21,7 +21,6 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, score, check, fix, test, security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules | 0.7.3 |
 | [claude-english-buddy](https://github.com/xiaolai/claude-english-buddy-for-claude) | English language coach — auto-corrects prompts, translates non-English, tracks improvement over time | 0.2.3 |
 | [awful](https://github.com/xiaolai/awful-for-claude) | awful — design, generate, and audit agent workflows driven by GitHub events using labels as routing | 0.1.1 |
-| [reading-assistant](https://github.com/xiaolai/reading-assistant-for-claude) | Process EPUB books into summaries, knowledge extractions, Obsidian notes, and RAG databases | 0.1.1 |
 
 ## Installing Plugins
 

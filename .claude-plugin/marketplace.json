@@ -210,30 +210,6 @@
         "non-native"
       ],
       "category": "developer-tools"
-    },
-    {
-      "name": "reading-assistant",
-      "source": {
-        "source": "github",
-        "repo": "xiaolai/reading-assistant-for-claude"
-      },
-      "description": "Process EPUB books into summaries, knowledge extractions, Obsidian notes, and RAG databases",
-      "version": "0.1.1",
-      "author": {
-        "name": "xiaolai"
-      },
-      "repository": "https://github.com/xiaolai/reading-assistant-for-claude",
-      "license": "MIT",
-      "keywords": [
-        "epub",
-        "reading",
-        "summarization",
-        "obsidian",
-        "rag",
-        "zettelkasten",
-        "book-review"
-      ],
-      "category": "productivity"
     }
   ]
 }
