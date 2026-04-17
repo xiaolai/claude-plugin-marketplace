@@ -218,7 +218,7 @@
         "repo": "xiaolai/mermaid-preview-for-claude"
       },
       "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit \u2014 offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
