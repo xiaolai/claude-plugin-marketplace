@@ -210,6 +210,28 @@
         "non-native"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "mermaid-preview",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/mermaid-preview-for-claude"
+      },
+      "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit \u2014 offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/mermaid-preview-for-claude",
+      "license": "MIT",
+      "keywords": [
+        "mermaid",
+        "diagrams",
+        "preview",
+        "docs",
+        "markdown"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
