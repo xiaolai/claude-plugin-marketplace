@@ -36,7 +36,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline \u2014 test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.6.6",
+      "version": "0.7.0",
       "author": {
         "name": "xiaolai"
       },
@@ -195,7 +195,7 @@
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
       "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.2.4",
+      "version": "0.3.0",
       "author": {
         "name": "xiaolai"
       },
