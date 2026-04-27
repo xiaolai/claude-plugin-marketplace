@@ -256,6 +256,31 @@
         "mcp"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "ui-responsive",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/ui-responsive"
+      },
+      "description": "Advisory responsive-design coach — flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/ui-responsive",
+      "license": "ISC",
+      "keywords": [
+        "responsive",
+        "css",
+        "media-queries",
+        "viewport",
+        "breakpoints",
+        "advisory",
+        "hooks",
+        "mcp"
+      ],
+      "category": "developer-tools"
     }
   ]
 }

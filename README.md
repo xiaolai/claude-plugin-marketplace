@@ -23,6 +23,7 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [awful](https://github.com/xiaolai/awful-for-claude) | awful — design, generate, and audit agent workflows driven by GitHub events using labels as routing | 0.1.2 |
 | [mermaid-preview](https://github.com/xiaolai/mermaid-preview-for-claude) | Mermaid Preview — auto-preview diagrams in the browser on Write/Edit, offline-safe, dark-mode aware | 0.1.2 |
 | [ui-tokenize](https://github.com/xiaolai/ui-tokenize) | UI Tokenize — block hardcoded UI values; rewrite-first PreToolUse hook corrects literals to design-token references on the way to disk | 0.1.1 |
+| [ui-responsive](https://github.com/xiaolai/ui-responsive) | UI Responsive — advisory responsive-design coach; flags off-catalog breakpoints, bare 100vh, fixed widths without max-width via PostToolUse additionalContext | 0.1.0 |
 
 ## Installing Plugins
 
