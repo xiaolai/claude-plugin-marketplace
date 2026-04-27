@@ -21,6 +21,8 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [nlpm](https://github.com/xiaolai/nlpm-for-claude) | NLPM — scan, score, check, fix, test, security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules | 0.7.12 |
 | [claude-english-buddy](https://github.com/xiaolai/claude-english-buddy-for-claude) | English language coach — auto-corrects prompts, translates non-English, tracks improvement over time | 0.3.0 |
 | [awful](https://github.com/xiaolai/awful-for-claude) | awful — design, generate, and audit agent workflows driven by GitHub events using labels as routing | 0.1.2 |
+| [mermaid-preview](https://github.com/xiaolai/mermaid-preview-for-claude) | Mermaid Preview — auto-preview diagrams in the browser on Write/Edit, offline-safe, dark-mode aware | 0.1.2 |
+| [ui-tokenize](https://github.com/xiaolai/ui-tokenize) | UI Tokenize — block hardcoded UI values; rewrite-first PreToolUse hook corrects literals to design-token references on the way to disk | 0.1.1 |
 
 ## Installing Plugins
 

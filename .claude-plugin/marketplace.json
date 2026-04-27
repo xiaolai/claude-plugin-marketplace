@@ -232,6 +232,30 @@
         "markdown"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "ui-tokenize",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/ui-tokenize"
+      },
+      "description": "Block hardcoded UI values from LLM-written code \u2014 rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk, denies with structured suggestions when uncertain, and exposes tokenize__* MCP tools for autonomous recovery",
+      "version": "0.1.1",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/ui-tokenize",
+      "license": "ISC",
+      "keywords": [
+        "design-tokens",
+        "ui",
+        "css",
+        "tailwind",
+        "linting",
+        "hooks",
+        "mcp"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
