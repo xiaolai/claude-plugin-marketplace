@@ -281,6 +281,28 @@
         "mcp"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "north-star",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/north-star-system-prompt"
+      },
+      "description": "A 260-token system prompt that overrides three structural presumptions every RLHF-trained LLM inherits from training: that you want confirmation, that old scarcity still applies, that best practices are ceilings.",
+      "version": "0.1.1",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/north-star-system-prompt",
+      "license": "ISC",
+      "keywords": [
+        "system-prompt",
+        "stance",
+        "judgment",
+        "anti-sycophancy",
+        "first-principles"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
