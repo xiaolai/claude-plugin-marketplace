@@ -14,12 +14,12 @@
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
       "description": "OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
-      "version": "0.8.2",
+      "version": "0.8.3",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/codex-toolkit-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "codex",
         "openai",
@@ -36,12 +36,12 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline \u2014 test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.7.1",
+      "version": "0.7.2",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/tdd-guardian-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "tdd",
         "testing",
@@ -58,12 +58,12 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for values, decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
-      "version": "0.3.4",
+      "version": "0.3.5",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/echo-sleuth-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "conversation-history",
         "session-recall",
@@ -80,12 +80,12 @@
         "repo": "xiaolai/loc-guardian-for-claude"
       },
       "description": "Enforce per-file pure LOC limits with automated optimization strategies \u2014 counts, flags violations, and provides opus-powered extraction plans",
-      "version": "0.1.4",
+      "version": "0.1.5",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/loc-guardian-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "loc",
         "lines-of-code",
@@ -103,12 +103,12 @@
         "repo": "xiaolai/grill-for-claude"
       },
       "description": "Deep codebase interrogation \u2014 multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
-      "version": "1.2.3",
+      "version": "1.2.4",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/grill-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "code-review",
         "architecture",
@@ -125,12 +125,12 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer \u2014 detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.6",
+      "version": "0.1.7",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/docs-guardian-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "documentation",
         "docs",
@@ -148,12 +148,12 @@
         "repo": "xiaolai/nlpm-for-claude"
       },
       "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules",
-      "version": "0.7.12",
+      "version": "0.7.13",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/nlpm-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "nlp",
         "lint",
@@ -172,12 +172,12 @@
         "repo": "xiaolai/awful-for-claude"
       },
       "description": "Agent Workflow Framework Using Labels \u2014 design, generate, and audit agent workflows driven by GitHub events",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/awful-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "agent",
         "workflow",
@@ -195,12 +195,12 @@
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
       "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/claude-english-buddy-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "english",
         "language",
@@ -218,12 +218,12 @@
         "repo": "xiaolai/mermaid-preview-for-claude"
       },
       "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit \u2014 offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "xiaolai"
       },
       "repository": "https://github.com/xiaolai/mermaid-preview-for-claude",
-      "license": "MIT",
+      "license": "ISC",
       "keywords": [
         "mermaid",
         "diagrams",
