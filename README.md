@@ -67,3 +67,18 @@ claude plugin disable grill@xiaolai          # Temporarily disable
 claude plugin enable grill@xiaolai           # Re-enable
 claude plugin uninstall grill@xiaolai        # Remove
 ```
+
+## Troubleshooting
+
+### `plugin install` says "Plugin not found in marketplace 'xiaolai'"
+
+The marketplace is a local git clone, and `claude plugin install` does **not** auto-refresh it before resolving the plugin name. If a plugin was added to the marketplace after your local clone was last updated, install will fail with a misleading "not found" error.
+
+Refresh the marketplace, then retry:
+
+```bash
+claude plugin marketplace update xiaolai
+claude plugin install <plugin-name>@xiaolai --scope user
+```
+
+This is a Claude Code CLI limitation, not a marketplace configuration issue. The plugin is genuinely listed in `marketplace.json`; your local copy is just stale.
