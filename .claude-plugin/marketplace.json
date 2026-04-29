@@ -148,7 +148,7 @@
         "repo": "xiaolai/nlpm-for-claude"
       },
       "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules",
-      "version": "0.7.16",
+      "version": "0.7.17",
       "author": {
         "name": "xiaolai"
       },
@@ -263,7 +263,7 @@
         "source": "github",
         "repo": "xiaolai/ui-responsive"
       },
-      "description": "Advisory responsive-design coach — flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
+      "description": "Advisory responsive-design coach \u2014 flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
       "version": "0.1.0",
       "author": {
         "name": "xiaolai"
