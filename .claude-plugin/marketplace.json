@@ -58,7 +58,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for values, decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
-      "version": "0.3.5",
+      "version": "0.3.6",
       "author": {
         "name": "xiaolai"
       },
