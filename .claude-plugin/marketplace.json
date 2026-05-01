@@ -239,8 +239,8 @@
         "source": "github",
         "repo": "xiaolai/ui-tokenize"
       },
-      "description": "Block hardcoded UI values from LLM-written code \u2014 rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); tokenize__* MCP tools for autonomous recovery",
-      "version": "0.2.1",
+      "description": "Block hardcoded UI values from LLM-written code \u2014 rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans; tokenize__* MCP tools for autonomous recovery",
+      "version": "0.3.0",
       "author": {
         "name": "xiaolai"
       },
