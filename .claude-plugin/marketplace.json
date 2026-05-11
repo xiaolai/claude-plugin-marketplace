@@ -14,7 +14,7 @@
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
       "description": "OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
-      "version": "0.8.3",
+      "version": "0.8.4",
       "author": {
         "name": "xiaolai"
       },
@@ -103,7 +103,7 @@
         "repo": "xiaolai/grill-for-claude"
       },
       "description": "Deep codebase interrogation \u2014 multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
-      "version": "1.2.4",
+      "version": "1.2.5",
       "author": {
         "name": "xiaolai"
       },
