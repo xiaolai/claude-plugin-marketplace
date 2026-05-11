@@ -171,8 +171,8 @@
         "source": "github",
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
-      "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.3.1",
+      "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time. v0.4.0: AWS Bedrock routing when CLAUDE_CODE_USE_BEDROCK=1, OAuth Bearer auth + keychain fallback, visible auth-error warnings",
+      "version": "0.4.0",
       "author": {
         "name": "xiaolai"
       },
