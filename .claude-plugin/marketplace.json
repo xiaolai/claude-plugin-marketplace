@@ -147,8 +147,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts with focused agents, working hooks, and the 50 Rules",
-      "version": "0.7.34",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds a standalone Python validator (bin/nlpm-check) for pre-commit hooks and CI \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency.",
+      "version": "0.8.1",
       "author": {
         "name": "xiaolai"
       },
