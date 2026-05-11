@@ -125,7 +125,7 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer \u2014 detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.7",
+      "version": "0.1.8",
       "author": {
         "name": "xiaolai"
       },
@@ -147,8 +147,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds a standalone Python validator (bin/nlpm-check) for pre-commit hooks and CI \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency.",
-      "version": "0.8.1",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency.",
+      "version": "0.8.3",
       "author": {
         "name": "xiaolai"
       },
