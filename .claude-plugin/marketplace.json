@@ -148,7 +148,7 @@
         "repo": "xiaolai/nlpm-for-claude"
       },
       "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support.",
-      "version": "0.8.9",
+      "version": "0.8.10",
       "author": {
         "name": "xiaolai"
       },
