@@ -147,8 +147,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline \u2014 audits scoring 90+ produce teaching artifacts under auditor/exemplars/ that rules can cite as real-world positive references; rule-health surfaces 'rules we know how to break but not how to follow'.",
-      "version": "0.8.17",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline. v0.8.18 adds an auto-generated exemplar gallery + deterministic human-gated PR pipeline that cites exemplars from skills/nlpm/rules/ \u2014 no congrats issues on target maintainers.",
+      "version": "0.8.18",
       "author": {
         "name": "xiaolai"
       },
