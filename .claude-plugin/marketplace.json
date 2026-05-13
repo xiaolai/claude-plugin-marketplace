@@ -147,8 +147,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15 adds auditor/scripts/validate-rule-ids.py: a rubric-vs-findings drift detector that caught 861 mislabeled rule_ids across 127 historical audits.",
-      "version": "0.8.15",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add auditor/scripts/validate-rule-ids.py: a two-stage rubric-vs-findings drift detector (type drift + semantic drift) that caught 990 mislabeled rule_ids across 128 historical audits, including the 14 R07/missing-example-block bugs in the 2026-05-13 ljg-skills audit.",
+      "version": "0.8.16",
       "author": {
         "name": "xiaolai"
       },
