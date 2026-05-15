@@ -1,14 +1,29 @@
 # claude-plugin-marketplace
 
-Central marketplace for Claude Code plugins by xiaolai.
+Central marketplace for **Claude Code** and **OpenAI Codex CLI** plugins by xiaolai.
+
+Two manifest files live in this repo:
+
+- `.claude-plugin/marketplace.json` — Claude Code entries (read by `claude plugin install`)
+- `.agents/plugins/marketplace.json` — Codex CLI entries (read by `codex plugin install`)
+
+Each plugin repo can ship both layouts in parallel: `.claude-plugin/` for Claude Code, `.codex-plugin/` + `codex/` tree for Codex. The two ecosystems coexist in one source repo per plugin.
 
 ## Installation
+
+For Claude Code:
 
 ```bash
 claude plugin marketplace add xiaolai/claude-plugin-marketplace
 ```
 
-## Available Plugins
+For Codex CLI:
+
+```bash
+codex plugin marketplace add xiaolai/claude-plugin-marketplace
+```
+
+## Available Plugins (Claude Code)
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
@@ -25,6 +40,16 @@ claude plugin marketplace add xiaolai/claude-plugin-marketplace
 | [ui-responsive](https://github.com/xiaolai/ui-responsive) | UI Responsive — advisory responsive-design coach; flags off-catalog breakpoints, bare 100vh, fixed widths without max-width via PostToolUse additionalContext | 0.1.0 |
 | [north-star](https://github.com/xiaolai/north-star-system-prompt) | North Star — 260-token system prompt overriding three RLHF-inherited presumptions (independence, calibration, first-principles); ambient + slash command + subagent layered delivery | 0.1.1 |
 
+## Available Plugins (Codex CLI)
+
+Codex ports are added incrementally as each plugin is converted. Status table — entries are removed from "pending" and added here once their `.codex-plugin/` and `codex/skills/` artifacts are committed and smoke-tested.
+
+| Plugin | Description | Version | Status |
+|--------|-------------|---------|--------|
+| [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 7 specialized analysis skills, 5 review styles, and 8 add-on pressure tests | 1.2.5 | Layout committed; install-side smoke test pending |
+
+**Pending ports**: tdd-guardian, loc-guardian, docs-guardian, echo-sleuth, nlpm, claude-english-buddy. `codex-toolkit` is intentionally not ported — Sendbird's [cc-plugin-codex](https://github.com/sendbird/cc-plugin-codex) covers the Codex→Claude delegation lane; xiaolai's plan is to ship `codex-guardian` (Codex-artifact auditor) in that niche instead.
+
 ## Installing Plugins
 
 ### Global (all projects)
@@ -37,6 +62,36 @@ claude plugin install loc-guardian@xiaolai --scope user
 claude plugin install grill@xiaolai --scope user
 claude plugin install docs-guardian@xiaolai --scope user
 ```
+
+### Codex installs
+
+Codex installs plugins from a marketplace via the **in-session `/plugins` TUI**, not a shell command. The shell `codex plugin` subcommand only manages marketplaces (no `install` verb exists).
+
+**One-time setup** (shell):
+
+```bash
+codex plugin marketplace add xiaolai/claude-plugin-marketplace
+```
+
+Codex registers this as marketplace name `xiaolai` (flattened from the GitHub URL — the `name` field inside `.agents/plugins/marketplace.json` is ignored at registration).
+
+**Per-plugin install** (inside a Codex session):
+
+1. Start a session: `codex` (in your project directory)
+2. Type `/plugins` — opens the plugin TUI
+3. Find grill in the xiaolai marketplace, install/enable it
+
+**Invoking a plugin** (inside a Codex session):
+
+Codex uses the **skill** prefix `$`, not slash commands. Type:
+
+```
+$grill-roast
+```
+
+Or just describe the task in natural language ("do a multi-angle audit of this codebase") and Codex's auto-match will load the skill from its description.
+
+(More entries to come as Codex ports land.)
 
 ### Project only (current project)
 

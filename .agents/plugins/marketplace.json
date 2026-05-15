@@ -1,0 +1,37 @@
+{
+  "name": "xiaolai",
+  "interface": {
+    "displayName": "xiaolai (Codex)"
+  },
+  "metadata": {
+    "description": "Codex CLI plugins by xiaolai — ports of the Claude Code marketplace"
+  },
+  "plugins": [
+    {
+      "name": "grill",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/grill-for-claude"
+      },
+      "description": "Deep codebase interrogation — multi-angle architecture review with 7 specialized analysis skills, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
+      "version": "1.2.5",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/grill-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "code-review",
+        "architecture",
+        "interrogation",
+        "audit",
+        "codebase-analysis"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Coding"
+    }
+  ]
+}
