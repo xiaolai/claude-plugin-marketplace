@@ -173,8 +173,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline. v0.8.18 adds an auto-generated exemplar gallery + deterministic human-gated PR pipeline that cites exemplars from skills/nlpm/rules/ \u2014 no congrats issues on target maintainers.",
-      "version": "0.8.18",
+      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline. v0.8.18 adds an auto-generated exemplar gallery + deterministic human-gated PR pipeline that cites exemplars from skills/nlpm/rules/. v0.8.19 auto-persists trend snapshots from /nlpm:init and every /nlpm:score, with scope markers so partial scans don't pollute the trend line.",
+      "version": "0.8.19",
       "author": {
         "name": "xiaolai"
       },
