@@ -137,11 +137,14 @@ function copySkill(srcPath, destPath) {
     return;
   }
   const { frontmatter, body } = parsed;
-  // Strip Claude-specific fields
+  // Strip Claude-specific fields that Codex either ignores or doesn't honor
   delete frontmatter.globs;
   delete frontmatter.model;
   delete frontmatter.color;
   delete frontmatter.tools;
+  delete frontmatter['allowed-tools'];
+  delete frontmatter['argument-hint'];
+  delete frontmatter.arguments;
   ensureDir(path.dirname(destPath));
   fs.writeFileSync(destPath, serializeFrontmatter(frontmatter) + '\n' + body);
 }
