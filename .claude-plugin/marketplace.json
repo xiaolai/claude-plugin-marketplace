@@ -282,6 +282,29 @@
       "category": "developer-tools"
     },
     {
+      "name": "cc-bridge",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/cc-bridge-for-claude"
+      },
+      "description": "Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI — single-source AGENTS.md, shared skills via .agents/skills symlink, mirrored hooks and MCP servers, and Codex MCP wiring",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/cc-bridge-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "codex",
+        "gemini",
+        "agents-md",
+        "mcp",
+        "bridge",
+        "multi-tool"
+      ],
+      "category": "developer-tools"
+    },
+    {
       "name": "anthropic-docs",
       "source": {
         "source": "github",

@@ -40,6 +40,7 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 | [ui-responsive](https://github.com/xiaolai/ui-responsive) | UI Responsive — advisory responsive-design coach; flags off-catalog breakpoints, bare 100vh, fixed widths without max-width via PostToolUse additionalContext | 0.1.0 |
 | [north-star](https://github.com/xiaolai/north-star-system-prompt) | North Star — 260-token system prompt overriding three RLHF-inherited presumptions (independence, calibration, first-principles); ambient + slash command + subagent layered delivery | 0.1.1 |
 | [anthropic-docs](https://github.com/xiaolai/anthropic-docs) | Auto-updated Anthropic docs — 8 skills covering claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest); GitHub Actions pipeline refreshes every 30 minutes from upstream docs + HTML feeds; supersedes the archived single-skill predecessor `claude-agent-sdk-skill-autoupdated` | 1.0.0 |
+| [cc-bridge](https://github.com/xiaolai/cc-bridge-for-claude) | CC Bridge — keep Claude Code, Codex CLI, and Gemini CLI synchronized on the same project: single-source AGENTS.md, shared skills via .agents/skills symlink, mirrored hooks and MCP servers | 0.1.0 |
 
 ## Available Plugins (Codex CLI)
 
