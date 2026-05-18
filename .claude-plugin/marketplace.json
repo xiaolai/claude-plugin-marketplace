@@ -8,12 +8,38 @@
   },
   "plugins": [
     {
+      "name": "cc-suite",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/cc-suite-for-claude"
+      },
+      "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI \u2014 single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude\u2194Codex bidirectional delegation. Supersedes cc-bridge and codex-toolkit.",
+      "version": "0.2.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/cc-suite-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "codex",
+        "gemini",
+        "agents-md",
+        "mcp",
+        "bridge",
+        "delegation",
+        "multi-tool",
+        "audit",
+        "code-review"
+      ],
+      "category": "developer-tools"
+    },
+    {
       "name": "codex-toolkit",
       "source": {
         "source": "github",
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
-      "description": "OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
+      "description": "DEPRECATED \u2014 superseded by cc-suite (github.com/xiaolai/cc-suite-for-claude). OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
       "version": "0.8.4",
       "author": {
         "name": "xiaolai"
@@ -287,7 +313,7 @@
         "source": "github",
         "repo": "xiaolai/cc-bridge-for-claude"
       },
-      "description": "Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI — single-source AGENTS.md, shared skills via .agents/skills symlink, mirrored hooks and MCP servers, and Codex MCP wiring",
+      "description": "DEPRECATED — superseded by cc-suite (github.com/xiaolai/cc-suite-for-claude). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
       "version": "0.1.0",
       "author": {
         "name": "xiaolai"

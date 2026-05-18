@@ -27,7 +27,7 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude) | OpenAI Codex MCP integration — audit, implement, verify, review, and debug | 0.8.4 |
+| [cc-suite](https://github.com/xiaolai/cc-suite-for-claude) | CC Suite — one plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI: single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation. Supersedes cc-bridge and codex-toolkit. | 0.2.0 |
 | [tdd-guardian](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | 0.7.2 |
 | [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations, manage memory lifecycle, extract knowledge | 0.4.0 |
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.5 |
@@ -40,7 +40,8 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 | [ui-responsive](https://github.com/xiaolai/ui-responsive) | UI Responsive — advisory responsive-design coach; flags off-catalog breakpoints, bare 100vh, fixed widths without max-width via PostToolUse additionalContext | 0.1.0 |
 | [north-star](https://github.com/xiaolai/north-star-system-prompt) | North Star — 260-token system prompt overriding three RLHF-inherited presumptions (independence, calibration, first-principles); ambient + slash command + subagent layered delivery | 0.1.1 |
 | [anthropic-docs](https://github.com/xiaolai/anthropic-docs) | Auto-updated Anthropic docs — 8 skills covering claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest); GitHub Actions pipeline refreshes every 30 minutes from upstream docs + HTML feeds; supersedes the archived single-skill predecessor `claude-agent-sdk-skill-autoupdated` | 1.0.0 |
-| [cc-bridge](https://github.com/xiaolai/cc-bridge-for-claude) | CC Bridge — keep Claude Code, Codex CLI, and Gemini CLI synchronized on the same project: single-source AGENTS.md, shared skills via .agents/skills symlink, mirrored hooks and MCP servers | 0.1.0 |
+| ~~[cc-bridge](https://github.com/xiaolai/cc-bridge-for-claude)~~ | **DEPRECATED** — use `cc-suite` instead | 0.1.0 |
+| ~~[codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude)~~ | **DEPRECATED** — use `cc-suite` instead | 0.8.4 |
 
 ## Available Plugins (Codex CLI)
 
@@ -57,7 +58,7 @@ Codex ports are added incrementally as each plugin is converted. Status table �
 ### Global (all projects)
 
 ```bash
-claude plugin install codex-toolkit@xiaolai --scope user
+claude plugin install cc-suite@xiaolai --scope user
 claude plugin install tdd-guardian@xiaolai --scope user
 claude plugin install echo-sleuth@xiaolai --scope user
 claude plugin install loc-guardian@xiaolai --scope user
@@ -98,7 +99,7 @@ Or just describe the task in natural language ("do a multi-angle audit of this c
 ### Project only (current project)
 
 ```bash
-claude plugin install codex-toolkit@xiaolai --scope project
+claude plugin install cc-suite@xiaolai --scope project
 claude plugin install tdd-guardian@xiaolai --scope project
 claude plugin install echo-sleuth@xiaolai --scope project
 claude plugin install loc-guardian@xiaolai --scope project
