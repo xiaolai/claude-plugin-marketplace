@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "xiaolai/cc-suite"
       },
-      "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI \u2014 single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude\u2194Codex bidirectional delegation. Supersedes cc-bridge and codex-toolkit.",
+      "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation. Supersedes cc-bridge and codex-toolkit.",
       "version": "0.2.8",
       "author": {
         "name": "xiaolai"
@@ -39,7 +39,7 @@
         "source": "github",
         "repo": "xiaolai/codex-toolkit-for-claude"
       },
-      "description": "DEPRECATED \u2014 superseded by cc-suite (github.com/xiaolai/cc-suite). OpenAI Codex MCP integration for Claude Code \u2014 audit, implement, verify, review, and debug via Codex",
+      "description": "DEPRECATED — superseded by cc-suite (github.com/xiaolai/cc-suite). OpenAI Codex MCP integration for Claude Code — audit, implement, verify, review, and debug via Codex",
       "version": "0.8.4",
       "author": {
         "name": "xiaolai"
@@ -61,7 +61,7 @@
         "source": "github",
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
-      "description": "Enforces strict TDD discipline \u2014 test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
+      "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
       "version": "0.7.2",
       "author": {
         "name": "xiaolai"
@@ -105,7 +105,7 @@
         "source": "github",
         "repo": "xiaolai/loc-guardian-for-claude"
       },
-      "description": "Enforce per-file pure LOC limits with automated optimization strategies \u2014 counts, flags violations, and provides opus-powered extraction plans",
+      "description": "Enforce per-file pure LOC limits with automated optimization strategies — counts, flags violations, and provides opus-powered extraction plans",
       "version": "0.1.5",
       "author": {
         "name": "xiaolai"
@@ -128,7 +128,7 @@
         "source": "github",
         "repo": "xiaolai/grill-for-claude"
       },
-      "description": "Deep codebase interrogation \u2014 multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
+      "description": "Deep codebase interrogation — multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
       "version": "1.2.5",
       "author": {
         "name": "xiaolai"
@@ -150,7 +150,7 @@
         "source": "github",
         "repo": "xiaolai/docs-guardian-for-claude"
       },
-      "description": "Documentation quality and freshness enforcer \u2014 detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
+      "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
       "version": "0.1.8",
       "author": {
         "name": "xiaolai"
@@ -173,8 +173,8 @@
         "source": "github",
         "repo": "xiaolai/nlpm-for-claude"
       },
-      "description": "Natural-Language Programming Manager \u2014 scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge \u2014 the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15\u2013v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline. v0.8.18 adds an auto-generated exemplar gallery + deterministic human-gated PR pipeline that cites exemplars from skills/nlpm/rules/. v0.8.19 auto-persists trend snapshots from /nlpm:init and every /nlpm:score, with scope markers so partial scans don't pollute the trend line.",
-      "version": "0.8.19",
+      "description": "Natural-Language Programming Manager — scan, score, check, fix, test (TDD), security-scan, and trend-track NL artifacts via focused agents and the 50 Rules. v0.8.0+ adds standalone Python validators (bin/nlpm-check, bin/nlpm-badge) for pre-commit / CI and a shields.io-backed 'Validated by NLPM' badge — the only ecosystem tool that systematically catches manifest-vs-disk inconsistency. v0.8.5 adds multi-plugin monorepo support. v0.8.15–v0.8.16 add a two-stage rubric-vs-findings drift detector. v0.8.17 adds the exemplar pipeline. v0.8.18 adds an auto-generated exemplar gallery + deterministic human-gated PR pipeline that cites exemplars from skills/nlpm/rules/. v0.8.19 auto-persists trend snapshots from /nlpm:init and every /nlpm:score, with scope markers so partial scans don't pollute the trend line.",
+      "version": "0.8.20",
       "author": {
         "name": "xiaolai"
       },
@@ -197,7 +197,7 @@
         "source": "github",
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
-      "description": "English language coach for non-native speakers \u2014 auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time. v0.4.0: AWS Bedrock routing when CLAUDE_CODE_USE_BEDROCK=1, OAuth Bearer auth + keychain fallback, visible auth-error warnings",
+      "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time. v0.4.0: AWS Bedrock routing when CLAUDE_CODE_USE_BEDROCK=1, OAuth Bearer auth + keychain fallback, visible auth-error warnings",
       "version": "0.4.0",
       "author": {
         "name": "xiaolai"
@@ -220,7 +220,7 @@
         "source": "github",
         "repo": "xiaolai/mermaid-preview-for-claude"
       },
-      "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit \u2014 offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
+      "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit — offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
       "version": "0.1.3",
       "author": {
         "name": "xiaolai"
@@ -242,7 +242,7 @@
         "source": "github",
         "repo": "xiaolai/ui-tokenize"
       },
-      "description": "Block hardcoded UI values from LLM-written code \u2014 rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans; /tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
+      "description": "Block hardcoded UI values from LLM-written code — rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans; /tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
       "version": "0.4.0",
       "author": {
         "name": "xiaolai"
@@ -266,7 +266,7 @@
         "source": "github",
         "repo": "xiaolai/ui-responsive"
       },
-      "description": "Advisory responsive-design coach \u2014 flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
+      "description": "Advisory responsive-design coach — flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
       "version": "0.1.0",
       "author": {
         "name": "xiaolai"
@@ -313,7 +313,7 @@
         "source": "github",
         "repo": "xiaolai/cc-bridge-for-claude"
       },
-      "description": "DEPRECATED \u2014 superseded by cc-suite (github.com/xiaolai/cc-suite). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
+      "description": "DEPRECATED — superseded by cc-suite (github.com/xiaolai/cc-suite). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
       "version": "0.1.0",
       "author": {
         "name": "xiaolai"
@@ -336,7 +336,7 @@
         "source": "github",
         "repo": "xiaolai/anthropic-docs"
       },
-      "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem \u2014 claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed every 30 minutes from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
+      "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem — claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed every 30 minutes from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
       "version": "1.0.0",
       "author": {
         "name": "xiaolai"
