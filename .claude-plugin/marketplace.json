@@ -282,17 +282,17 @@
       "category": "developer-tools"
     },
     {
-      "name": "autoupdated-anthropic-documentation-knowledge",
+      "name": "anthropic-docs",
       "source": {
         "source": "github",
-        "repo": "xiaolai/autoupdated-anthropic-documentation-knowledge"
+        "repo": "xiaolai/anthropic-docs"
       },
       "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem — claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed every 30 minutes from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
       "version": "1.0.0",
       "author": {
         "name": "xiaolai"
       },
-      "repository": "https://github.com/xiaolai/autoupdated-anthropic-documentation-knowledge",
+      "repository": "https://github.com/xiaolai/anthropic-docs",
       "license": "MIT",
       "keywords": [
         "anthropic",
