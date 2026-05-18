@@ -313,7 +313,7 @@
         "source": "github",
         "repo": "xiaolai/cc-bridge-for-claude"
       },
-      "description": "DEPRECATED — superseded by cc-suite (github.com/xiaolai/cc-suite). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
+      "description": "DEPRECATED \u2014 superseded by cc-suite (github.com/xiaolai/cc-suite). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
       "version": "0.1.0",
       "author": {
         "name": "xiaolai"
@@ -336,7 +336,7 @@
         "source": "github",
         "repo": "xiaolai/anthropic-docs"
       },
-      "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem — claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed every 30 minutes from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
+      "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem \u2014 claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed every 30 minutes from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
       "version": "1.0.0",
       "author": {
         "name": "xiaolai"
@@ -354,6 +354,31 @@
         "auto-updated"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "eou-foundry",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/eou-foundry"
+      },
+      "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification (function + target + automation + authority + risk + lifecycle), generating-EOU constraints, ECP-governed change, no-self-approval. Install in any project to turn messy workflows into auditable, retirable operating units.",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/eou-foundry",
+      "license": "ISC",
+      "keywords": [
+        "eou",
+        "governance",
+        "audit",
+        "schema",
+        "ecp",
+        "foundry",
+        "executable-operating-unit",
+        "workflow"
+      ],
+      "category": "governance"
     }
   ]
 }
