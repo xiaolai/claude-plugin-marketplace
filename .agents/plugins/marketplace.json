@@ -4,7 +4,7 @@
     "displayName": "xiaolai (Codex)"
   },
   "metadata": {
-    "description": "Codex CLI plugins by xiaolai \u2014 ports of the Claude Code marketplace"
+    "description": "Codex CLI plugins by xiaolai — ports of the Claude Code marketplace"
   },
   "plugins": [
     {
@@ -13,7 +13,7 @@
         "source": "github",
         "repo": "xiaolai/grill-for-claude"
       },
-      "description": "Deep codebase interrogation \u2014 multi-angle architecture review with 7 specialized analysis skills, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
+      "description": "Deep codebase interrogation — multi-angle architecture review with 7 specialized analysis skills, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
       "version": "1.2.5",
       "author": {
         "name": "xiaolai"
@@ -40,7 +40,7 @@
         "repo": "xiaolai/eou-foundry"
       },
       "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification (function + target + automation + authority + risk + lifecycle), generating-EOU constraints, ECP-governed change, no-self-approval. Install in any project to turn messy workflows into auditable, retirable operating units.",
-      "version": "0.1.0",
+      "version": "0.2.0",
       "author": {
         "name": "xiaolai"
       },
