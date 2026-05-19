@@ -41,7 +41,6 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 | [north-star](https://github.com/xiaolai/north-star-system-prompt) | North Star — 260-token system prompt overriding three RLHF-inherited presumptions (independence, calibration, first-principles); ambient + slash command + subagent layered delivery | 0.1.1 |
 | [anthropic-docs](https://github.com/xiaolai/anthropic-docs) | Auto-updated Anthropic docs — 8 skills covering claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest); GitHub Actions pipeline refreshes every 30 minutes from upstream docs + HTML feeds; supersedes the archived single-skill predecessor `claude-agent-sdk-skill-autoupdated` | 1.0.0 |
 | ~~[cc-bridge](https://github.com/xiaolai/cc-bridge-for-claude)~~ | **DEPRECATED** — use `cc-suite` instead | 0.1.0 |
-| ~~[codex-toolkit](https://github.com/xiaolai/codex-toolkit-for-claude)~~ | **DEPRECATED** — use `cc-suite` instead | 0.8.4 |
 
 ## Available Plugins (Codex CLI)
 
@@ -52,7 +51,7 @@ Codex ports are added incrementally as each plugin is converted. Status table �
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 7 specialized analysis skills, 5 review styles, and 8 add-on pressure tests | 1.2.5 | Layout committed; install-side smoke test pending |
 | [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — turn messy workflows into auditable Executable Operating Units with recursive governance (10 skills: candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding) | 0.5.0 | |
 
-**Pending ports**: tdd-guardian, loc-guardian, docs-guardian, echo-sleuth, nlpm, claude-english-buddy. `codex-toolkit` is intentionally not ported — Sendbird's [cc-plugin-codex](https://github.com/sendbird/cc-plugin-codex) covers the Codex→Claude delegation lane; xiaolai's plan is to ship `codex-guardian` (Codex-artifact auditor) in that niche instead.
+**Pending ports**: tdd-guardian, loc-guardian, docs-guardian, echo-sleuth, nlpm, claude-english-buddy. The Claude↔Codex delegation lane is now handled by [`cc-suite`](https://github.com/xiaolai/cc-suite) (single plugin, bidirectional). `codex-guardian` (Codex-artifact auditor) remains a planned future addition for the Codex-only audit niche.
 
 ## Installing Plugins
 
