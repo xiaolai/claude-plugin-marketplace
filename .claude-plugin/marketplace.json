@@ -361,8 +361,8 @@
         "source": "github",
         "repo": "xiaolai/eou-foundry"
       },
-      "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification (function + target + automation + authority + risk + lifecycle), generating-EOU constraints, ECP-governed change, no-self-approval. Install in any project to turn messy workflows into auditable, retirable operating units.",
-      "version": "0.4.1",
+      "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification (function + target + automation + authority + risk + lifecycle), generating-EOU constraints, ECP-governed change, no-self-approval. v0.5.0: engine artifacts (failure taxonomy, maturity model, governance, etc.) live canonically in plugin/engine/; apps inherit via constitution instead of copying at init time.",
+      "version": "0.5.0",
       "author": {
         "name": "xiaolai"
       },
