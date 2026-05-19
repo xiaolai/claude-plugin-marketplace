@@ -40,7 +40,7 @@
         "repo": "xiaolai/eou-foundry"
       },
       "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification (function + target + automation + authority + risk + lifecycle), generating-EOU constraints, ECP-governed change, no-self-approval. Install in any project to turn messy workflows into auditable, retirable operating units.",
-      "version": "0.2.0",
+      "version": "0.4.1",
       "author": {
         "name": "xiaolai"
       },

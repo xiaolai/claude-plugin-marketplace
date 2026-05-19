@@ -50,7 +50,7 @@ Codex ports are added incrementally as each plugin is converted. Status table �
 | Plugin | Description | Version | Status |
 |--------|-------------|---------|--------|
 | [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 7 specialized analysis skills, 5 review styles, and 8 add-on pressure tests | 1.2.5 | Layout committed; install-side smoke test pending |
-| [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — turn messy workflows into auditable Executable Operating Units with recursive governance (10 skills: candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding) | 0.4.0 | |
+| [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — turn messy workflows into auditable Executable Operating Units with recursive governance (10 skills: candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding) | 0.4.1 | |
 
 **Pending ports**: tdd-guardian, loc-guardian, docs-guardian, echo-sleuth, nlpm, claude-english-buddy. `codex-toolkit` is intentionally not ported — Sendbird's [cc-plugin-codex](https://github.com/sendbird/cc-plugin-codex) covers the Codex→Claude delegation lane; xiaolai's plan is to ship `codex-guardian` (Codex-artifact auditor) in that niche instead.
 
