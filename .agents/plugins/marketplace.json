@@ -39,8 +39,8 @@
         "source": "github",
         "repo": "xiaolai/eou-foundry"
       },
-      "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. v0.6.0: lifecycle/evidence triangle + candidate-set schema + active-EOU trace gate (hard-cut).",
-      "version": "0.6.0",
+      "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. v0.7.0: Stage 0 (captured_workflow + domain_values constitutional layer + Rule 96). v0.8.0: agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, $audit-judgment skill, Rule 97, counterfactual-swap audit).",
+      "version": "0.8.0",
       "author": {
         "name": "xiaolai"
       },
