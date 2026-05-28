@@ -40,6 +40,7 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 | [ui-responsive](https://github.com/xiaolai/ui-responsive) | UI Responsive — advisory responsive-design coach; flags off-catalog breakpoints, bare 100vh, fixed widths without max-width via PostToolUse additionalContext | 0.1.0 |
 | [north-star](https://github.com/xiaolai/north-star-system-prompt) | North Star — 260-token system prompt overriding three RLHF-inherited presumptions (independence, calibration, first-principles); ambient + slash command + subagent layered delivery | 0.1.1 |
 | [anthropic-docs](https://github.com/xiaolai/anthropic-docs) | Auto-updated Anthropic docs — 8 skills covering claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest); GitHub Actions pipeline refreshes daily from upstream docs + HTML feeds; supersedes the archived single-skill predecessor `claude-agent-sdk-skill-autoupdated` | 1.0.0 |
+| [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — recursive governance for Executable Operating Units (EOUs): faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. 12 skills covering candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding, Stage 0 capture, and judgment audit. | 0.8.1 |
 | ~~[cc-bridge](https://github.com/xiaolai/cc-bridge-for-claude)~~ | **DEPRECATED** — use `cc-suite` instead | 0.1.0 |
 
 ## Available Plugins (Codex CLI)
