@@ -369,7 +369,7 @@
         "repo": "xiaolai/bureau"
       },
       "description": "Turn AI sessions into a maintained, human-reviewed knowledge base: capture sessions to append-only logbooks, compile into consistency-checked cabinet pages gated by trust tiers (proposed → verified → canonical), query the canon tier-aware, and render with the bundled gazette dashboard. Karpathy LLM-wiki pattern + session provenance + a human review gate. Self-contained — no separate install.",
-      "version": "0.0.2",
+      "version": "0.0.3",
       "author": {
         "name": "xiaolai"
       },
