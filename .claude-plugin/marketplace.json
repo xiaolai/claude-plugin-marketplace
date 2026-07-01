@@ -14,7 +14,7 @@
         "repo": "xiaolai/cc-suite"
       },
       "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), plus project-scoped advisor agents (value-over-rules personas backed by claude-octopus). Supersedes cc-bridge and codex-toolkit.",
-      "version": "0.8.0",
+      "version": "0.8.1",
       "author": {
         "name": "xiaolai"
       },
