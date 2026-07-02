@@ -65,7 +65,7 @@
         "repo": "xiaolai/nlpm"
       },
       "description": "Natural-Language Programming reference knowledge as Codex skills — the 50 Rules, the 100-point scoring rubric, per-tool conventions (Claude Code / Codex CLI / Antigravity), anti-patterns, vocabulary discipline, and authoring guides. Knowledge skills, not commands: load $nlpm-rules + $nlpm-scoring to score an artifact, $nlpm-conventions-codex for the Codex skill layout. The interactive /nlpm:* linting commands remain a Claude Code plugin; cross-tool deterministic checks use the standalone bin/nlpm-check.",
-      "version": "1.1.1",
+      "version": "1.1.2",
       "author": {
         "name": "xiaolai"
       },
