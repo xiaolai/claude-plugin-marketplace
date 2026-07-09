@@ -385,6 +385,16 @@
         "ssot"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "hermes-tweet",
+      "source": {
+        "source": "github",
+        "repo": "Xquik-dev/hermes-tweet"
+      },
+      "description": "Native Hermes Agent X/Twitter plugin for read-first social research and opt-in account actions.",
+      "category": "automation",
+      "homepage": "https://github.com/Xquik-dev/hermes-tweet"
     }
   ]
 }
