@@ -369,7 +369,7 @@
         "repo": "xiaolai/bureau"
       },
       "description": "Turn AI sessions into a maintained, human-reviewed knowledge base: capture sessions to append-only logbooks, compile into consistency-checked cabinet dossiers gated by trust tiers (proposed → verified → canonical), query the canon tier-aware, and render it as an offline gazette (built by the bundled press). Enable a crew of specialized agents (e.g. a read-only Auditor) or author your own. Ships an AI-facing guide skill that orients any session to the model, the gate, and the right command, plus a localhost chamber (bureau:serve) — an interactive intake surface that files proposed claims as logbook minutes feeding the same gate. Karpathy LLM-wiki pattern + session provenance + a human review gate. Self-contained — no separate install.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": {
         "name": "xiaolai"
       },
