@@ -385,6 +385,31 @@
         "ssot"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "appatlas",
+      "source": {
+        "source": "github",
+        "repo": "sleepyw33kday/appatlas"
+      },
+      "description": "Walk an entire web or mobile app end to end and produce a browsable atlas of every screen: screenshots, per-screen behavior specs, a faceted tag index, and a flow graph linking screens by what opens what.",
+      "version": "1.0.0",
+      "author": {
+        "name": "sleepyw33kday"
+      },
+      "repository": "https://github.com/sleepyw33kday/appatlas",
+      "license": "MIT",
+      "keywords": [
+        "app-walkthrough",
+        "teardown",
+        "ux-research",
+        "screenshots",
+        "browser-automation",
+        "documentation",
+        "ios",
+        "android"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
