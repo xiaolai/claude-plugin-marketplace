@@ -385,6 +385,30 @@
         "ssot"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "coding-discipline",
+      "source": {
+        "source": "git-subdir",
+        "url": "https://github.com/chipfighter/coding-discipline.git",
+        "path": "plugins/coding-discipline"
+      },
+      "description": "Workflow-agnostic guardrails for AI coding agents: spec sync preserves confirmed intent across sessions, while risk-triggered skills enforce design alignment, TDD, root-cause debugging, prioritized review, evidence-before-done, disciplined git, and context hygiene.",
+      "version": "0.8.1",
+      "author": {
+        "name": "chipfighter"
+      },
+      "repository": "https://github.com/chipfighter/coding-discipline",
+      "license": "MIT",
+      "keywords": [
+        "skills",
+        "discipline",
+        "spec-sync",
+        "tdd",
+        "guardrails",
+        "code-review"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
