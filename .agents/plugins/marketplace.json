@@ -34,6 +34,32 @@
       "category": "Coding"
     },
     {
+      "name": "reason-grill",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/reason-grill-for-claude"
+      },
+      "description": "Deep argument interrogation — map a claim, then attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity) via one orchestrator skill ($reason-grill-roast). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]; returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
+      "version": "0.3.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/reason-grill-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "argument-analysis",
+        "critical-thinking",
+        "reasoning",
+        "steelman",
+        "logic"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Coding"
+    },
+    {
       "name": "eou-foundry",
       "source": {
         "source": "github",
