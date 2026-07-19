@@ -123,6 +123,28 @@
       "category": "developer-tools"
     },
     {
+      "name": "reason-grill",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/reason-grill-for-claude"
+      },
+      "description": "Deep argument interrogation — the grill method applied to reasoning. One command maps a claim (thesis agent), then attacks it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]; returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
+      "version": "0.2.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/reason-grill-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "argument-analysis",
+        "critical-thinking",
+        "reasoning",
+        "steelman",
+        "logic"
+      ],
+      "category": "developer-tools"
+    },
+    {
       "name": "docs-guardian",
       "source": {
         "source": "github",
