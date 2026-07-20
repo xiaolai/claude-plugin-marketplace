@@ -110,6 +110,32 @@
         "authentication": "NONE"
       },
       "category": "Coding"
+    },
+    {
+      "name": "xros",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/xros"
+      },
+      "description": "XROS — an eXecutable Research Operating System. Four skills: compile a long-horizon investigation into a verifiable methodology spec; sharpen an un-checkable question (orient a newcomer in a field's vocabulary → falsifiable claim → best-available check, with its ceiling); run the Tier-A/B engine (diverse independent routes, adversarial refutation) gated on a real oracle's exit code; or reason through a no-oracle Tier-C claim with premises, pre-mortem, and dated tripwires. Founding rule: no verification, no claim. Ships a bundled dependency-free validator and conformance suite.",
+      "version": "0.3.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/xros",
+      "license": "MIT",
+      "keywords": [
+        "research",
+        "verification",
+        "methodology",
+        "multi-agent",
+        "falsifiability"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "NONE"
+      },
+      "category": "Coding"
     }
   ]
 }
