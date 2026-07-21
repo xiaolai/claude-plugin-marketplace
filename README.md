@@ -54,11 +54,11 @@ Most ports keep their skills under `codex/skills/`. `xros` instead ships a **sin
 
 | Plugin | Description | Version | Status |
 |--------|-------------|---------|--------|
-| [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 7 specialized analysis skills, 5 review styles, and 8 add-on pressure tests | 1.3.0 | Layout committed; install-side smoke test pending |
-| [reason-grill](https://github.com/xiaolai/reason-grill-for-claude) | reason-grill — deep argument interrogation: map a claim, attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity) via $reason-grill-roast; a calibration gate refuses to manufacture objections; returns a calibrated verdict | 0.3.0 | Layout committed; install-side smoke test pending |
-| [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — turn messy workflows into auditable Executable Operating Units with recursive governance (12 skills: candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding, Stage 0 capture, judgment audit). v0.7.0 ships Stage 0 (captured_workflow + per-app domain_values constitutional layer + Rule 96 consumption). v0.8.0 ships agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, judgment_maturity J0–J4 axis, $audit-judgment skill, Rule 97, counterfactual-swap audit). | 0.8.1 | |
-| [nlpm](https://github.com/xiaolai/nlpm) | NLPM — reference-knowledge skills (17): the 50 Rules, the 100-point scoring rubric, per-tool conventions (Claude Code / Codex CLI / Antigravity), anti-patterns, vocabulary discipline, and authoring guides. Knowledge skills, not commands — `$nlpm-rules` + `$nlpm-scoring` to score an artifact, `$nlpm-conventions-codex` for the Codex layout. The interactive `/nlpm:*` linting commands stay a Claude Code plugin (they orchestrate sub-agents); cross-tool deterministic checks use the standalone `bin/nlpm-check`. | 1.1.2 | Reference-knowledge port; the command/agent orchestration stays Claude-only by design |
-| [xros](https://github.com/xiaolai/xros) | XROS — an eXecutable Research Operating System. Four skills (`$xros-compile`, `$xros-sharpen`, `$xros-run`, `$xros-reason`): turn an investigation into a verifiable methodology spec, then gate the verdict on a real oracle's exit code. Founding rule: no verification, no claim. Ships a dependency-free validator + conformance suite. | 0.3.0 | Layout committed; install-side smoke test pending |
+| [grill](https://github.com/xiaolai/grill-for-claude) | Grill — deep codebase interrogation with 7 specialized analysis skills, 5 review styles, and 8 add-on pressure tests | 1.3.0 | Install smoke-tested with Codex CLI 0.144.3 |
+| [reason-grill](https://github.com/xiaolai/reason-grill-for-claude) | reason-grill — deep argument interrogation: map a claim, attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity) via $reason-grill-roast; a calibration gate refuses to manufacture objections; returns a calibrated verdict | 0.3.0 | Install smoke-tested with Codex CLI 0.144.3 |
+| [eou-foundry](https://github.com/xiaolai/eou-foundry) | EOU Foundry — turn messy workflows into auditable Executable Operating Units with recursive governance (12 skills: candidate generation, audit, specify, refactor, promote, foundry-wide audit, ECP authoring, init scaffolding, Stage 0 capture, judgment audit). v0.7.0 ships Stage 0 (captured_workflow + per-app domain_values constitutional layer + Rule 96 consumption). v0.8.0 ships agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, judgment_maturity J0–J4 axis, $audit-judgment skill, Rule 97, counterfactual-swap audit). | 0.8.1 | Install smoke-tested with Codex CLI 0.144.3 |
+| [nlpm](https://github.com/xiaolai/nlpm) | NLPM — reference-knowledge skills (17): the 50 Rules, the 100-point scoring rubric, per-tool conventions (Claude Code / Codex CLI / Antigravity), anti-patterns, vocabulary discipline, and authoring guides. Knowledge skills, not commands — `$nlpm-rules` + `$nlpm-scoring` to score an artifact, `$nlpm-conventions-codex` for the Codex layout. The interactive `/nlpm:*` linting commands stay a Claude Code plugin (they orchestrate sub-agents); cross-tool deterministic checks use the standalone `bin/nlpm-check`. | 1.1.2 | Install smoke-tested with Codex CLI 0.144.3; command/agent orchestration stays Claude-only |
+| [xros](https://github.com/xiaolai/xros) | XROS — an eXecutable Research Operating System. Four skills (`$xros-compile`, `$xros-sharpen`, `$xros-run`, `$xros-reason`): turn an investigation into a verifiable methodology spec, then gate the verdict on a real oracle's exit code. Founding rule: no verification, no claim. Ships a dependency-free validator + conformance suite. | 0.3.0 | Install smoke-tested with Codex CLI 0.144.3 |
 
 **Pending ports**: tdd-guardian, loc-guardian, docs-guardian, echo-sleuth, claude-english-buddy. The Claude↔Codex delegation lane is now handled by [`cc-suite`](https://github.com/xiaolai/cc-suite) (single plugin, bidirectional). `codex-guardian` (Codex-artifact auditor) remains a planned future addition for the Codex-only audit niche.
 
@@ -77,17 +77,22 @@ claude plugin install docs-guardian@xiaolai --scope user
 
 ### Codex installs
 
-Codex installs plugins from a marketplace via the **in-session `/plugins` TUI**, not a shell command. The shell `codex plugin` subcommand only manages marketplaces (no `install` verb exists).
-
 **One-time setup** (shell):
 
 ```bash
 codex plugin marketplace add xiaolai/claude-plugin-marketplace
 ```
 
-Codex registers this as marketplace name `xiaolai` (flattened from the GitHub URL — the `name` field inside `.agents/plugins/marketplace.json` is ignored at registration).
+Codex registers this as marketplace name `xiaolai`.
 
-**Per-plugin install** (inside a Codex session):
+**Per-plugin install** (shell):
+
+```bash
+codex plugin list --marketplace xiaolai --available
+codex plugin add grill@xiaolai
+```
+
+You can also install from inside a Codex session:
 
 1. Start a session: `codex` (in your project directory)
 2. Type `/plugins` — opens the plugin TUI
