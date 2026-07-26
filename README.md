@@ -27,7 +27,7 @@ codex plugin marketplace add xiaolai/claude-plugin-marketplace
 
 | Plugin | Description | Version |
 |--------|-------------|---------|
-| [cc-suite](https://github.com/xiaolai/cc-suite) | CC Suite — one plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI: single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, project-scoped advisor agents, and opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI). Supersedes cc-bridge and codex-toolkit. | 0.12.0 |
+| [cc-suite](https://github.com/xiaolai/cc-suite) | CC Suite — one plugin to bridge and delegate across Claude Code, Codex CLI, and Gemini CLI: single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, project-scoped advisor agents, and opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI). Supersedes cc-bridge and codex-toolkit. | 0.13.0 |
 | [tdd-guardian](https://github.com/xiaolai/tdd-guardian-for-claude) | TDD Guardian — test-first workflow, coverage gates, mutation testing, test quality audits | 0.7.2 |
 | [echo-sleuth](https://github.com/xiaolai/echo-sleuth-for-claude) | Echo Sleuth — mine past conversations, manage memory lifecycle, extract knowledge | 0.4.0 |
 | [loc-guardian](https://github.com/xiaolai/loc-guardian-for-claude) | LOC Guardian — enforce per-file pure LOC limits with automated optimization strategies | 0.1.5 |
