@@ -29,6 +29,11 @@ import fs from 'node:fs';
 import path from 'node:path';
 
 const pluginDir = path.resolve(process.argv[2] || process.cwd());
+const cwd = process.cwd();
+if (pluginDir !== cwd && !pluginDir.startsWith(cwd + path.sep)) {
+  console.error(`Error: Plugin directory must be within the current working directory.\n  Resolved: ${pluginDir}\n  Expected under: ${cwd}`);
+  process.exit(1);
+}
 const codexConfigPath = path.join(pluginDir, 'codex-config.json');
 const codexConfig = fs.existsSync(codexConfigPath)
   ? JSON.parse(fs.readFileSync(codexConfigPath, 'utf8'))
