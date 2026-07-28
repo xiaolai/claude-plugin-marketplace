@@ -1,0 +1,28 @@
+name: Validate Codex marketplace
+
+on:
+  pull_request:
+    paths:
+      - .agents/plugins/marketplace.json
+      - scripts/validate-codex-marketplace.mjs
+      - .github/workflows/validate-codex-marketplace.yml
+  push:
+    branches:
+      - main
+    paths:
+      - .agents/plugins/marketplace.json
+      - scripts/validate-codex-marketplace.mjs
+      - .github/workflows/validate-codex-marketplace.yml
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/validate-codex-marketplace.mjs
