@@ -438,7 +438,7 @@
         "repo": "xiaolai/it-guy-pro"
       },
       "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands (checkup, cleanup, organize, fix, automate, toolbox, backup, network, open-internet, learn, onboard, profile), 4 agents, observation-first onboarding that names him and you in one short round, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a hook that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. 116 test assertions.",
-      "version": "1.2.0",
+      "version": "1.3.0",
       "author": {
         "name": "xiaolai"
       },
