@@ -432,18 +432,18 @@
       "category": "developer-tools"
     },
     {
-      "name": "it-guy-pro",
+      "name": "mac-it-guy-pro",
       "source": {
         "source": "github",
-        "repo": "xiaolai/it-guy-pro"
+        "repo": "xiaolai/mac-it-guy-pro"
       },
-      "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands (checkup, cleanup, organize, fix, automate, toolbox, backup, network, open-internet, learn, onboard, profile), 4 agents, observation-first onboarding that names him and you in one short round, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a hook that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. 116 test assertions.",
-      "version": "1.4.0",
+      "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands, 4 agents, observation-first onboarding, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a PreToolUse guard that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. Ships a Codex layout with the same hooks. macOS only. 129 assertions.",
+      "version": "1.5.0",
       "author": {
         "name": "xiaolai"
       },
-      "homepage": "https://github.com/xiaolai/it-guy-pro",
-      "repository": "https://github.com/xiaolai/it-guy-pro",
+      "homepage": "https://github.com/xiaolai/mac-it-guy-pro",
+      "repository": "https://github.com/xiaolai/mac-it-guy-pro",
       "license": "MIT",
       "keywords": [
         "it-support",
