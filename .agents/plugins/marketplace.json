@@ -148,7 +148,7 @@
         "repo": "xiaolai/mac-it-guy-pro"
       },
       "description": "Personal IT guy for non-technical macOS users — checkups, safe cleanup, undoable file organising, evidence-first diagnosis, backups with a restore drill, home network, automation that leaves reusable tools behind, and a tutor grounded in your machine's own numbers. PreToolUse guard and SessionStart digest both run under Codex. macOS only.",
-      "version": "1.5.0",
+      "version": "1.5.1",
       "author": {
         "name": "xiaolai"
       },
