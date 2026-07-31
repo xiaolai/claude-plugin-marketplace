@@ -13,8 +13,8 @@
         "source": "github",
         "repo": "xiaolai/cc-suite"
       },
-      "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Antigravity — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, project-scoped advisor agents, opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI) via a tool-profile registry, never-stale model selection (the config records the 'latest' policy), and a structured diagnostics engine (enabled-tools-aware health checks with verified auto-repair). Supersedes cc-bridge and codex-toolkit.",
-      "version": "1.2.0",
+      "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Antigravity — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, a bounded read-only Claude→Qwen Code review lane (Safe Mode + Plan mode + sandbox, isolated target copies, verified tool boundary), project-scoped advisor agents, opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI) via a tool-profile registry, never-stale model selection (the config records the 'latest' policy), and a structured diagnostics engine (enabled-tools-aware health checks with verified auto-repair). Supersedes cc-bridge and codex-toolkit.",
+      "version": "1.3.1",
       "author": {
         "name": "xiaolai"
       },
