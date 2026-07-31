@@ -438,7 +438,7 @@
         "repo": "xiaolai/mac-it-guy-pro"
       },
       "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands, 4 agents, observation-first onboarding, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a PreToolUse guard that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. Ships a Codex layout with the same hooks. macOS only. 129 assertions.",
-      "version": "1.8.1",
+      "version": "1.9.0",
       "author": {
         "name": "xiaolai"
       },
