@@ -39,8 +39,8 @@
         "source": "github",
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
-      "description": "Enforces strict TDD discipline — test-first workflow, coverage gates, mutation testing, behavior-driven test quality audits",
-      "version": "0.7.3",
+      "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — CI-first tooling detection with dry-run verification, 9-format coverage merging, mutation testing, and behavior-driven test quality audits",
+      "version": "0.8.1",
       "author": {
         "name": "xiaolai"
       },
@@ -51,7 +51,9 @@
         "testing",
         "coverage",
         "mutation-testing",
-        "code-quality"
+        "code-quality",
+        "e2e",
+        "integration-testing"
       ],
       "category": "developer-tools"
     },
