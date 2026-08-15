@@ -39,8 +39,8 @@
         "source": "github",
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
-      "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — CI-first tooling detection with dry-run verification, 9-format coverage merging, mutation testing, and behavior-driven test quality audits",
-      "version": "0.8.1",
+      "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — specification-strength levels S1-S6 with property tooling, adversarial spec review before implementation, red receipts proving spec/implementation separation, per-path critical thresholds, 9-format coverage merging, and mutation testing",
+      "version": "0.9.0",
       "author": {
         "name": "xiaolai"
       },
@@ -53,7 +53,9 @@
         "mutation-testing",
         "code-quality",
         "e2e",
-        "integration-testing"
+        "integration-testing",
+        "property-testing",
+        "invariants"
       ],
       "category": "developer-tools"
     },
