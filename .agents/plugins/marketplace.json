@@ -66,7 +66,7 @@
         "url": "https://github.com/xiaolai/eou-foundry.git"
       },
       "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. v0.7.0: Stage 0 (captured_workflow + domain_values constitutional layer + Rule 96). v0.8.0: agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, $audit-judgment skill, Rule 97, counterfactual-swap audit).",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "author": {
         "name": "xiaolai"
       },
@@ -122,7 +122,7 @@
         "url": "https://github.com/xiaolai/xros.git"
       },
       "description": "XROS — an eXecutable Research Operating System. Four skills: compile a long-horizon investigation into a verifiable methodology spec; sharpen an un-checkable question (orient a newcomer in a field's vocabulary → falsifiable claim → best-available check, with its ceiling); run the Tier-A/B engine (diverse independent routes, adversarial refutation) gated on a real oracle's exit code; or reason through a no-oracle Tier-C claim with premises, pre-mortem, and dated tripwires. Founding rule: no verification, no claim. Ships a bundled dependency-free validator and conformance suite.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "xiaolai"
       },

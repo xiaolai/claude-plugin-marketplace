@@ -40,7 +40,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — specification-strength levels S1-S6 with property tooling, adversarial spec review before implementation, red receipts proving spec/implementation separation, per-path critical thresholds, 9-format coverage merging, and mutation testing",
-      "version": "0.9.0",
+      "version": "0.9.1",
       "author": {
         "name": "xiaolai"
       },
@@ -66,7 +66,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for values, decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "xiaolai"
       },
@@ -87,8 +87,8 @@
         "source": "github",
         "repo": "xiaolai/loc-guardian-for-claude"
       },
-      "description": "Enforce per-file pure LOC limits with automated optimization strategies — counts, flags violations, and provides opus-powered extraction plans",
-      "version": "0.1.5",
+      "description": "Enforce per-file pure LOC limits — deterministic tokei-based counting, opus-powered extraction plans measured in pure LOC, and a --check mode that exits non-zero for CI and pre-commit hooks",
+      "version": "0.2.0",
       "author": {
         "name": "xiaolai"
       },
@@ -155,7 +155,7 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.8",
+      "version": "0.1.9",
       "author": {
         "name": "xiaolai"
       },
@@ -206,7 +206,7 @@
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
       "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time. v0.5.0: cleaner correction format — `wrong → right (reason)` per line, no-op suppression, category tags",
-      "version": "0.5.1",
+      "version": "0.5.2",
       "author": {
         "name": "xiaolai"
       },
@@ -251,7 +251,7 @@
         "repo": "xiaolai/ui-tokenize"
       },
       "description": "Block hardcoded UI values from LLM-written code — rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans, plus an ignore glob list excludes paths (test fixtures, generated or vendored code) from hooks and audit alike; /tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
-      "version": "0.4.1",
+      "version": "0.4.2",
       "author": {
         "name": "xiaolai"
       },
@@ -275,7 +275,7 @@
         "repo": "xiaolai/ui-responsive"
       },
       "description": "Advisory responsive-design coach — flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
@@ -300,7 +300,7 @@
         "repo": "xiaolai/north-star-system-prompt"
       },
       "description": "A 260-token system prompt that overrides three structural presumptions every RLHF-trained LLM inherits from training: that you want confirmation, that old scarcity still applies, that best practices are ceilings.",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "author": {
         "name": "xiaolai"
       },
@@ -370,7 +370,7 @@
         "repo": "xiaolai/eou-foundry"
       },
       "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. v0.7.0: Stage 0 (reference-grounded captured_workflow + per-app domain_values constitutional layer + Rule 96). v0.8.0: agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, judgment_maturity J0–J4 axis, $audit-judgment skill, Rule 97, counterfactual-swap audit).",
-      "version": "0.8.1",
+      "version": "0.8.2",
       "author": {
         "name": "xiaolai"
       },
@@ -419,7 +419,7 @@
         "repo": "xiaolai/xros"
       },
       "description": "XROS — an eXecutable Research Operating System. Four commands: compile a long-horizon investigation into a verifiable methodology spec; sharpen an un-checkable question (orient a newcomer in a field's vocabulary → falsifiable claim → best-available check, with its ceiling); run the Tier-A/B multi-agent engine (diverse independent routes, adversarial refutation) gated on a real oracle's exit code; or reason through a no-oracle Tier-C claim with premises, pre-mortem, and dated tripwires. Founding rule: no verification, no claim. Ships a bundled dependency-free validator and conformance suite.",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "xiaolai"
       },
