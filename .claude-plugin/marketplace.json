@@ -19,7 +19,7 @@
         "repo": "xiaolai/cc-suite"
       },
       "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Antigravity — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, a bounded read-only Claude→Qwen Code review lane (Safe Mode + Plan mode + sandbox, isolated target copies, verified tool boundary), project-scoped advisor agents, opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI) via a tool-profile registry, never-stale model selection (the config records the 'latest' policy), a structured diagnostics engine (enabled-tools-aware health checks with verified auto-repair), and a cross-repo sweep that finds every project on the machine cc-suite has bridged and repairs bridge leftovers in one pass — dead MCP registrations, and skills symlinks left pointing at a pruned plugin version, which SessionStart now also re-points on its own. Supersedes cc-bridge and codex-toolkit.",
-      "version": "2.3.3",
+      "version": "2.3.4",
       "author": {
         "name": "xiaolai"
       },
