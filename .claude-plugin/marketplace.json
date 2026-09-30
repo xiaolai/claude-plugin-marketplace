@@ -473,7 +473,7 @@
         "repo": "xiaolai/compute-ladder-for-claude"
       },
       "description": "Routes Claude Code's compute: Claude escalates its own reasoning effort mid-turn when a task is genuinely hard (with a guard against accidental downgrades), delegates large mechanical jobs to a Sonnet low-effort worker, and reports how it routed",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
