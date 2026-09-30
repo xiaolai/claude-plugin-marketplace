@@ -14,7 +14,7 @@
         "repo": "xiaolai/cc-suite"
       },
       "description": "One plugin to bridge and delegate across Claude Code, Codex CLI, and Antigravity — single-source AGENTS.md, shared skills, mirrored hooks and MCP servers, full Claude↔Codex bidirectional delegation (including Codex reading Claude's session history), a Claude→Grok Build delegation lane over ACP, a bounded read-only Claude→Qwen Code review lane (Safe Mode + Plan mode + sandbox, isolated target copies, verified tool boundary), project-scoped advisor agents, opt-in bridging to more coding agents (Grok Build, opencode, Qwen Code, Kimi CLI) via a tool-profile registry, never-stale model selection (the config records the 'latest' policy), a structured diagnostics engine (enabled-tools-aware health checks with verified auto-repair), and a cross-repo sweep that finds every project on the machine cc-suite has bridged and repairs bridge leftovers in one pass — dead MCP registrations, and skills symlinks left pointing at a pruned plugin version, which SessionStart now also re-points on its own. Supersedes cc-bridge and codex-toolkit.",
-      "version": "2.3.1",
+      "version": "2.3.2",
       "author": {
         "name": "xiaolai"
       },
@@ -40,7 +40,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — specification-strength levels S1-S6 with property tooling, adversarial spec review before implementation, red receipts proving spec/implementation separation, per-path critical thresholds, 9-format coverage merging, and mutation testing",
-      "version": "0.9.2",
+      "version": "0.9.3",
       "author": {
         "name": "xiaolai"
       },
@@ -87,8 +87,8 @@
         "source": "github",
         "repo": "xiaolai/loc-guardian-for-claude"
       },
-      "description": "Enforce per-file pure LOC limits — deterministic tokei-based counting, opus-powered extraction plans measured in pure LOC, and a --check mode that exits non-zero for CI and pre-commit hooks",
-      "version": "0.2.0",
+      "description": "Enforce per-file pure LOC limits — deterministic tokei-based counting, per-file ceilings and exemptions for files that are one thing by design, opus-powered extraction plans measured in pure LOC, and a --check mode that exits non-zero for CI and pre-commit hooks",
+      "version": "0.3.0",
       "author": {
         "name": "xiaolai"
       },
@@ -155,7 +155,7 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.10",
+      "version": "0.1.11",
       "author": {
         "name": "xiaolai"
       },
@@ -206,7 +206,7 @@
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
       "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.5.4",
+      "version": "0.5.5",
       "author": {
         "name": "xiaolai"
       },
@@ -250,8 +250,8 @@
         "source": "github",
         "repo": "xiaolai/ui-tokenize"
       },
-      "description": "Block hardcoded UI values from LLM-written code — rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans, plus an ignore glob list excludes paths (test fixtures, generated or vendored code) from hooks and audit alike; /tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
-      "version": "0.4.3",
+      "description": "Block hardcoded UI values from LLM-written code — rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans, plus an ignore glob list excludes paths (test fixtures, generated or vendored code) from hooks and audit alike; /ui-tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
+      "version": "0.4.4",
       "author": {
         "name": "xiaolai"
       },
@@ -275,7 +275,7 @@
         "repo": "xiaolai/ui-responsive"
       },
       "description": "Advisory responsive-design coach — flags off-catalog breakpoints, bare 100vh, fixed widths without max-width, and stylesheets with no @media; surfaces findings as PostToolUse additionalContext, never blocks tool calls",
-      "version": "0.1.2",
+      "version": "0.1.3",
       "author": {
         "name": "xiaolai"
       },
@@ -345,7 +345,7 @@
         "repo": "xiaolai/anthropic-docs"
       },
       "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem — claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed daily from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
-      "version": "1.0.0",
+      "version": "1.0.1",
       "author": {
         "name": "xiaolai"
       },
@@ -370,7 +370,7 @@
         "repo": "xiaolai/eou-foundry"
       },
       "description": "Recursive governance for Executable Operating Units (EOUs). Faceted classification, generating-EOU constraints, ECP-governed change, no-self-approval. v0.7.0: Stage 0 (reference-grounded captured_workflow + per-app domain_values constitutional layer + Rule 96). v0.8.0: agentic judgment (judgment_authorized flag, value_invocations trace, F14–F17 taxonomy, judgment_maturity J0–J4 axis, $audit-judgment skill, Rule 97, counterfactual-swap audit).",
-      "version": "0.8.3",
+      "version": "0.8.4",
       "author": {
         "name": "xiaolai"
       },
@@ -395,7 +395,7 @@
         "repo": "xiaolai/bureau"
       },
       "description": "Turn AI sessions into a maintained, human-reviewed knowledge base: capture sessions to append-only logbooks, compile into consistency-checked cabinet dossiers gated by trust tiers (proposed → verified → canonical), and render an offline gazette (built by the bundled press). A typed review queue (bureau:review) orders the backlog upstream-first and names the exact action per page (approve / reapprove / confirm / resolve / repair); a human applies decisions one at a time or as a reviewed, content-bound, commit-gated batch (approve --from a manifest, or --all with a warning). Record architecture decisions as MADR ADR pages (bureau:adr) with typed supersedes edges — a superseded decision leaves current fact only once the superseding ADR is content-bound approved (ADR-0006). Delegate the review queue to Codex as your representative (bureau:codex-review): it recommends approve/hold, and where a workspace opts the codex authority into trust_policy it commits under --by codex — an honest machine authority, never a human one (ADR-0007). Bulk-approve the whole backlog in one confirmation (bureau:approve-all): the AI shows the batch and confirms, then hands you the single --by human line to fire yourself — it never signs for you. A deterministic recursion engine tracks claim-level dependencies (rests_on + author-anchored spans) via an append-only decision log, per-span revisions, an early-cutoff gate, and an fsck byte-fixpoint — so changing an upstream claim flags every downstream page for review. A live Engine view (bureau:serve) paints three signals onto the board as you edit — dependency freshness (needs-review/stale), artifact currency (a verified file that drifted out from under a claim), and a convergence trend (is the canon settling or thrashing) — and git-backed versioning renders any past board (build --at), diffs two versions, and pins named snapshots. Enable a crew of specialized agents or author your own. Karpathy LLM-wiki pattern + session provenance + a human review gate. Self-contained — no separate install.",
-      "version": "1.0.2",
+      "version": "1.0.3",
       "author": {
         "name": "xiaolai"
       },
@@ -419,7 +419,7 @@
         "repo": "xiaolai/xros"
       },
       "description": "XROS — an eXecutable Research Operating System. Four commands: compile a long-horizon investigation into a verifiable methodology spec; sharpen an un-checkable question (orient a newcomer in a field's vocabulary → falsifiable claim → best-available check, with its ceiling); run the Tier-A/B multi-agent engine (diverse independent routes, adversarial refutation) gated on a real oracle's exit code; or reason through a no-oracle Tier-C claim with premises, pre-mortem, and dated tripwires. Founding rule: no verification, no claim. Ships a bundled dependency-free validator and conformance suite.",
-      "version": "0.3.2",
+      "version": "0.3.3",
       "author": {
         "name": "xiaolai"
       },
@@ -442,7 +442,7 @@
         "repo": "xiaolai/mac-it-guy-pro"
       },
       "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands, 4 agents, observation-first onboarding, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a PreToolUse guard that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. Ships a Codex layout with the same hooks. macOS only. 129 assertions.",
-      "version": "1.9.2",
+      "version": "1.9.3",
       "author": {
         "name": "xiaolai"
       },
