@@ -250,6 +250,33 @@
         "authentication": "ON_USE"
       },
       "category": "Coding"
+    },
+    {
+      "name": "claude-english-buddy",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xiaolai/claude-english-buddy-for-claude.git"
+      },
+      "description": "English coach for non-native speakers: a UserPromptSubmit hook shows the corrected English of each prompt, translates prompts in other languages, and refines :: prompts, and Codex works from the clean version. Corrections are logged locally for $claude-english-buddy-today, -stats, -mistakes and -drill; $claude-english-buddy-review and -preview check any text for grammar, tone and clarity. The hook calls Claude Haiku with your own Anthropic credentials and runs once you trust it with /hooks.",
+      "version": "0.6.1",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/claude-english-buddy-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "english",
+        "language",
+        "coaching",
+        "grammar",
+        "translation",
+        "non-native"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Writing"
     }
   ]
 }
