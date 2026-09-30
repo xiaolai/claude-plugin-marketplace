@@ -8,7 +8,8 @@
   },
   "renames": {
     "cc-bridge": null,
-    "codex-toolkit": null
+    "codex-toolkit": null,
+    "anthropic-docs": null
   },
   "plugins": [
     {
@@ -316,31 +317,6 @@
         "judgment",
         "anti-sycophancy",
         "first-principles"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "anthropic-docs",
-      "source": {
-        "source": "github",
-        "repo": "xiaolai/anthropic-docs"
-      },
-      "description": "Auto-updated multi-skill reference for the whole Anthropic doc ecosystem — claude-code, claude-agent-sdk, anthropic-api, anthropic-platform-features, claude-connectors, claude-cowork, mcp-spec, plus anthropic-pulse (news + research digest). 8 skills, refreshed daily from upstream docs and HTML feeds. Supersedes the archived claude-agent-sdk-skill-autoupdated (single-skill predecessor).",
-      "version": "1.0.1",
-      "author": {
-        "name": "xiaolai"
-      },
-      "repository": "https://github.com/xiaolai/anthropic-docs",
-      "license": "MIT",
-      "keywords": [
-        "anthropic",
-        "claude",
-        "claude-code",
-        "agent-sdk",
-        "mcp",
-        "documentation",
-        "reference",
-        "auto-updated"
       ],
       "category": "developer-tools"
     },
