@@ -148,7 +148,7 @@
         "url": "https://github.com/xiaolai/mac-it-guy-pro.git"
       },
       "description": "Personal IT guy for non-technical macOS users — checkups, safe cleanup, undoable file organising, evidence-first diagnosis, backups with a restore drill, home network, automation that leaves reusable tools behind, and a tutor grounded in your machine's own numbers. PreToolUse guard and SessionStart digest both run under Codex. macOS only.",
-      "version": "1.9.4",
+      "version": "1.9.5",
       "author": {
         "name": "xiaolai"
       },
@@ -176,7 +176,7 @@
         "url": "https://github.com/xiaolai/tdd-guardian-for-claude.git"
       },
       "description": "TDD discipline for Codex: per-lane gates (unit/integration/e2e/contract), spec-strength levels S1-S6 with property tooling, adversarial spec review, red receipts, per-path critical thresholds, 9-format coverage merging and mutation testing, as 11 workflow skills ($tdd-guardian-init, -plan, -design-tests, -implement, -gate, -workflow, ...). A PreToolUse hook denies git commit/push until the gating lanes are fresh; Claude Code's TaskCompleted auto-gate has no Codex event, so $tdd-guardian-gate runs those lanes.",
-      "version": "0.10.0",
+      "version": "0.10.1",
       "author": {
         "name": "xiaolai"
       },
@@ -204,7 +204,7 @@
         "url": "https://github.com/xiaolai/loc-guardian-for-claude.git"
       },
       "description": "Per-file pure-LOC limits for Codex: $loc-guardian-scan counts with tokei through a tested reducer script (no model arithmetic), flags files over the limit with per-glob overrides and ignores, and proposes extractions whose savings are measured with tokei; $loc-guardian-init sets the limit and extraction rules.",
-      "version": "0.4.0",
+      "version": "0.4.1",
       "author": {
         "name": "xiaolai"
       },
@@ -231,7 +231,7 @@
         "url": "https://github.com/xiaolai/docs-guardian-for-claude.git"
       },
       "description": "Documentation quality and freshness for Codex: $docs-guardian-audit checks staleness, accuracy, coverage and quality into one report with a fixing plan; $docs-guardian-coverage finds undocumented public APIs; $docs-guardian-generate writes missing docs in the project's framework format (Markdown, MkDocs, VitePress, Docusaurus, Sphinx). A PreToolUse hook warns on, or blocks, code-only commits.",
-      "version": "0.2.0",
+      "version": "0.2.1",
       "author": {
         "name": "xiaolai"
       },
@@ -258,7 +258,7 @@
         "url": "https://github.com/xiaolai/claude-english-buddy-for-claude.git"
       },
       "description": "English coach for non-native speakers: a UserPromptSubmit hook shows the corrected English of each prompt, translates prompts in other languages, and refines :: prompts, and Codex works from the clean version. Corrections are logged locally for $claude-english-buddy-today, -stats, -mistakes and -drill; $claude-english-buddy-review and -preview check any text for grammar, tone and clarity. The hook calls Claude Haiku with your own Anthropic credentials and runs once you trust it with /hooks.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": {
         "name": "xiaolai"
       },
