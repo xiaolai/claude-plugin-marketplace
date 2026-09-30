@@ -14,7 +14,7 @@
         "url": "https://github.com/xiaolai/grill-for-claude.git"
       },
       "description": "Deep codebase interrogation — multi-angle architecture review with 7 specialized analysis skills, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "author": {
         "name": "xiaolai"
       },
@@ -40,7 +40,7 @@
         "url": "https://github.com/xiaolai/reason-grill-for-claude.git"
       },
       "description": "Deep argument interrogation — map a claim, then attack it from five adversarial angles (logic, evidence, counter, assumptions, integrity) via one orchestrator skill ($reason-grill-roast). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]; returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED).",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "xiaolai"
       },
@@ -148,7 +148,7 @@
         "url": "https://github.com/xiaolai/mac-it-guy-pro.git"
       },
       "description": "Personal IT guy for non-technical macOS users — checkups, safe cleanup, undoable file organising, evidence-first diagnosis, backups with a restore drill, home network, automation that leaves reusable tools behind, and a tutor grounded in your machine's own numbers. PreToolUse guard and SessionStart digest both run under Codex. macOS only.",
-      "version": "1.9.3",
+      "version": "1.9.4",
       "author": {
         "name": "xiaolai"
       },

@@ -44,7 +44,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — specification-strength levels S1-S6 with property tooling, adversarial spec review before implementation, red receipts proving spec/implementation separation, per-path critical thresholds, 9-format coverage merging, and mutation testing",
-      "version": "0.9.3",
+      "version": "0.9.4",
       "author": {
         "name": "xiaolai"
       },
@@ -70,7 +70,7 @@
         "repo": "xiaolai/echo-sleuth-for-claude"
       },
       "description": "Mine past Claude Code conversations for values, decisions, mistakes, patterns, and wisdom. Manage memory lifecycle: audit staleness, extract knowledge, prune waste.",
-      "version": "0.4.2",
+      "version": "0.4.3",
       "author": {
         "name": "xiaolai"
       },
@@ -92,7 +92,7 @@
         "repo": "xiaolai/loc-guardian-for-claude"
       },
       "description": "Enforce per-file pure LOC limits — deterministic tokei-based counting, per-file ceilings and exemptions for files that are one thing by design, opus-powered extraction plans measured in pure LOC, and a --check mode that exits non-zero for CI and pre-commit hooks",
-      "version": "0.3.0",
+      "version": "0.3.1",
       "author": {
         "name": "xiaolai"
       },
@@ -115,7 +115,7 @@
         "repo": "xiaolai/grill-for-claude"
       },
       "description": "Deep codebase interrogation — multi-angle architecture review with 6 specialized agents, 5 review styles (including Paranoid Mode), and 8 add-on pressure tests. v1.3.0 ships the Codex CLI plugin layout alongside the Claude Code layout.",
-      "version": "1.3.1",
+      "version": "1.3.2",
       "author": {
         "name": "xiaolai"
       },
@@ -137,7 +137,7 @@
         "repo": "xiaolai/reason-grill-for-claude"
       },
       "description": "Deep argument interrogation — the grill method applied to reasoning. One command maps a claim (thesis agent), then attacks it from five adversarial angles (logic, evidence, counter, assumptions, integrity). A six-check calibration gate refuses to manufacture objections, so a sound argument mostly returns [SOUND]; returns a calibrated verdict (HOLDS / HOLDS-IF-NARROWED / WOUNDED / DEFEATED). v0.3.0 ships the Codex CLI layout alongside the Claude Code layout.",
-      "version": "0.3.1",
+      "version": "0.3.2",
       "author": {
         "name": "xiaolai"
       },
@@ -159,7 +159,7 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.11",
+      "version": "0.1.12",
       "author": {
         "name": "xiaolai"
       },
@@ -210,7 +210,7 @@
         "repo": "xiaolai/claude-english-buddy-for-claude"
       },
       "description": "English language coach for non-native speakers — auto-corrects prompts, translates non-English, refines with :: prefix, tracks improvement over time",
-      "version": "0.5.5",
+      "version": "0.5.6",
       "author": {
         "name": "xiaolai"
       },
@@ -255,7 +255,7 @@
         "repo": "xiaolai/ui-tokenize"
       },
       "description": "Block hardcoded UI values from LLM-written code — rewrite-first PreToolUse hook silently corrects literals to design-token references on the way to disk; uncertain matches deny with structured suggestions (strict mode, default) or surface as PostToolUse advisories (advisory mode); per-project surfaces allowlist narrows which file kinds the hook scans, plus an ignore glob list excludes paths (test fixtures, generated or vendored code) from hooks and audit alike; /ui-tokenize:review dispatches the token-reviewer agent to flag semantic mis-picks (right token vs. just any token); tokenize__* MCP tools for autonomous recovery",
-      "version": "0.4.4",
+      "version": "0.4.5",
       "author": {
         "name": "xiaolai"
       },
@@ -304,7 +304,7 @@
         "repo": "xiaolai/north-star-system-prompt"
       },
       "description": "A 260-token system prompt that overrides three structural presumptions every RLHF-trained LLM inherits from training: that you want confirmation, that old scarcity still applies, that best practices are ceilings.",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": {
         "name": "xiaolai"
       },
@@ -376,7 +376,7 @@
         "repo": "xiaolai/bureau"
       },
       "description": "Turn AI sessions into a maintained, human-reviewed knowledge base: capture sessions to append-only logbooks, compile into consistency-checked cabinet dossiers gated by trust tiers (proposed → verified → canonical), and render an offline gazette (built by the bundled press). A typed review queue (bureau:review) orders the backlog upstream-first and names the exact action per page (approve / reapprove / confirm / resolve / repair); a human applies decisions one at a time or as a reviewed, content-bound, commit-gated batch (approve --from a manifest, or --all with a warning). Record architecture decisions as MADR ADR pages (bureau:adr) with typed supersedes edges — a superseded decision leaves current fact only once the superseding ADR is content-bound approved (ADR-0006). Delegate the review queue to Codex as your representative (bureau:codex-review): it recommends approve/hold, and where a workspace opts the codex authority into trust_policy it commits under --by codex — an honest machine authority, never a human one (ADR-0007). Bulk-approve the whole backlog in one confirmation (bureau:approve-all): the AI shows the batch and confirms, then hands you the single --by human line to fire yourself — it never signs for you. A deterministic recursion engine tracks claim-level dependencies (rests_on + author-anchored spans) via an append-only decision log, per-span revisions, an early-cutoff gate, and an fsck byte-fixpoint — so changing an upstream claim flags every downstream page for review. A live Engine view (bureau:serve) paints three signals onto the board as you edit — dependency freshness (needs-review/stale), artifact currency (a verified file that drifted out from under a claim), and a convergence trend (is the canon settling or thrashing) — and git-backed versioning renders any past board (build --at), diffs two versions, and pins named snapshots. Enable a crew of specialized agents or author your own. Karpathy LLM-wiki pattern + session provenance + a human review gate. Self-contained — no separate install.",
-      "version": "1.0.3",
+      "version": "1.0.4",
       "author": {
         "name": "xiaolai"
       },
@@ -423,7 +423,7 @@
         "repo": "xiaolai/mac-it-guy-pro"
       },
       "description": "Personal IT guy for non-technical macOS users — 12 plain-language commands, 4 agents, observation-first onboarding, a machine profile that retires its own stale beliefs by retesting them, a locked and transactional state writer, a PreToolUse guard that blocks destructive shell commands, a toolbox that turns repeated chores into reusable micro-tools and offers automations you did not know to ask for, learning maps built from your own measurements, and answers in your chosen language while everything on disk stays English. Ships a Codex layout with the same hooks. macOS only. 129 assertions.",
-      "version": "1.9.3",
+      "version": "1.9.4",
       "author": {
         "name": "xiaolai"
       },
@@ -454,7 +454,7 @@
         "repo": "xiaolai/compute-ladder-for-claude"
       },
       "description": "Routes Claude Code's compute: Claude escalates its own reasoning effort mid-turn when a task is genuinely hard (with a guard against accidental downgrades), delegates large mechanical jobs to a Sonnet low-effort worker, and reports how it routed",
-      "version": "0.1.3",
+      "version": "0.1.4",
       "author": {
         "name": "xiaolai"
       },
