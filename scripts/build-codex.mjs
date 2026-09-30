@@ -63,6 +63,8 @@ function writeCodexManifest(claudeManifest) {
     // Codex auto-migrates commands/*.md into extra skills unless this is set; the converter
     // already turns commands into codex/skills/, so the migrated copies would be duplicates.
     ...(fs.existsSync(path.join(pluginDir, 'commands')) ? { commands: [] } : {}),
+    // Without this, Codex loads the Claude hooks/hooks.json by default.
+    ...(fs.existsSync(path.join(pluginDir, 'hooks', 'hooks.json')) ? { hooks: './codex/hooks/hooks.json' } : {}),
     interface: {
       displayName: codexConfig.interface?.displayName || claudeManifest.name,
       shortDescription: codexConfig.interface?.shortDescription || claudeManifest.description,
