@@ -14,8 +14,8 @@
 //      (strips model/color/tools, replaces "## [Agent: …] Findings" with "## [Skill: …] Findings")
 //   6. Converts <plugin-dir>/commands/*.md → <plugin-dir>/codex/skills/<prefix>-<name>/SKILL.md
 //      (strips allowed-tools)
-//   7. Synthesizes <plugin-dir>/CLAUDE.md → <plugin-dir>/codex/AGENTS.md (CLAUDE.md → AGENTS.md,
-//      "agents" → "skills" terminology, comments out Claude-specific tool/model references)
+//   7. Synthesizes <plugin-dir>/CLAUDE.md (or AGENTS.md) → <plugin-dir>/codex/AGENTS.md (CLAUDE.md →
+//      AGENTS.md, "agents" → "skills" terminology, comments out Claude-specific tool/model references)
 //
 // What it does NOT do:
 //   - Validate Codex schema correctness (no published schema yet)
@@ -190,9 +190,11 @@ function convertAgentOrCommand(srcPath, destDir, skillPrefix) {
 }
 
 function synthesizeAgentsMd() {
-  const claudeMdPath = path.join(pluginDir, 'CLAUDE.md');
-  if (!fs.existsSync(claudeMdPath)) {
-    console.warn(`  ! No CLAUDE.md to synthesize from`);
+  const claudeMdPath = [path.join(pluginDir, 'CLAUDE.md'), path.join(pluginDir, 'AGENTS.md')].find((p) =>
+    fs.existsSync(p),
+  );
+  if (!claudeMdPath) {
+    console.warn(`  ! No CLAUDE.md or AGENTS.md to synthesize from`);
     return;
   }
   let content = fs.readFileSync(claudeMdPath, 'utf8');
