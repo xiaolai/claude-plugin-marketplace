@@ -168,6 +168,88 @@
         "authentication": "ON_USE"
       },
       "category": "Productivity"
+    },
+    {
+      "name": "tdd-guardian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xiaolai/tdd-guardian-for-claude.git"
+      },
+      "description": "TDD discipline for Codex: per-lane gates (unit/integration/e2e/contract), spec-strength levels S1-S6 with property tooling, adversarial spec review, red receipts, per-path critical thresholds, 9-format coverage merging and mutation testing, as 11 workflow skills ($tdd-guardian-init, -plan, -design-tests, -implement, -gate, -workflow, ...). A PreToolUse hook denies git commit/push until the gating lanes are fresh; Claude Code's TaskCompleted auto-gate has no Codex event, so $tdd-guardian-gate runs those lanes.",
+      "version": "0.10.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/tdd-guardian-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "tdd",
+        "testing",
+        "coverage",
+        "mutation-testing",
+        "quality-gates",
+        "e2e",
+        "property-testing"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "loc-guardian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xiaolai/loc-guardian-for-claude.git"
+      },
+      "description": "Per-file pure-LOC limits for Codex: $loc-guardian-scan counts with tokei through a tested reducer script (no model arithmetic), flags files over the limit with per-glob overrides and ignores, and proposes extractions whose savings are measured with tokei; $loc-guardian-init sets the limit and extraction rules.",
+      "version": "0.4.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/loc-guardian-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "loc",
+        "lines-of-code",
+        "metrics",
+        "tokei",
+        "code-quality",
+        "file-size-limits"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Coding"
+    },
+    {
+      "name": "docs-guardian",
+      "source": {
+        "source": "url",
+        "url": "https://github.com/xiaolai/docs-guardian-for-claude.git"
+      },
+      "description": "Documentation quality and freshness for Codex: $docs-guardian-audit checks staleness, accuracy, coverage and quality into one report with a fixing plan; $docs-guardian-coverage finds undocumented public APIs; $docs-guardian-generate writes missing docs in the project's framework format (Markdown, MkDocs, VitePress, Docusaurus, Sphinx). A PreToolUse hook warns on, or blocks, code-only commits.",
+      "version": "0.2.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/docs-guardian-for-claude",
+      "license": "ISC",
+      "keywords": [
+        "documentation",
+        "docs",
+        "staleness",
+        "coverage",
+        "quality",
+        "freshness"
+      ],
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_USE"
+      },
+      "category": "Coding"
     }
   ]
 }

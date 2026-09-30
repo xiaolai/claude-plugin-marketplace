@@ -45,7 +45,7 @@
         "repo": "xiaolai/tdd-guardian-for-claude"
       },
       "description": "Enforces strict TDD discipline across unit/integration/e2e/contract lanes — specification-strength levels S1-S6 with property tooling, adversarial spec review before implementation, red receipts proving spec/implementation separation, per-path critical thresholds, 9-format coverage merging, and mutation testing",
-      "version": "0.9.4",
+      "version": "0.10.0",
       "author": {
         "name": "xiaolai"
       },
@@ -93,7 +93,7 @@
         "repo": "xiaolai/loc-guardian-for-claude"
       },
       "description": "Enforce per-file pure LOC limits — deterministic tokei-based counting, per-file ceilings and exemptions for files that are one thing by design, opus-powered extraction plans measured in pure LOC, and a --check mode that exits non-zero for CI and pre-commit hooks",
-      "version": "0.3.1",
+      "version": "0.4.0",
       "author": {
         "name": "xiaolai"
       },
@@ -160,7 +160,7 @@
         "repo": "xiaolai/docs-guardian-for-claude"
       },
       "description": "Documentation quality and freshness enforcer — detect staleness, check accuracy, measure coverage, and auto-generate docs across any language and doc framework",
-      "version": "0.1.12",
+      "version": "0.2.0",
       "author": {
         "name": "xiaolai"
       },
