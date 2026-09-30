@@ -224,13 +224,14 @@ console.log(`Building Codex layout for ${pluginDir}`);
 
 const claudeManifest = readClaudeManifest();
 const skillPrefix = codexConfig.skillPrefix || claudeManifest.name;
-writeCodexManifest(claudeManifest);
 
-// Refuse to overwrite an existing hand-built codex/ tree unless --force is given
+// Refuse to overwrite an existing hand-built codex/ tree unless --force is given. Checked before
+// any write: the manifest is hand-polished too, and refusing after rewriting it clobbers it anyway.
 if (fs.existsSync(codexDir) && !process.argv.includes('--force')) {
   console.error(`\nRefusing to clobber existing ${codexDir}. Pass --force to overwrite.`);
   process.exit(1);
 }
+writeCodexManifest(claudeManifest);
 
 // Copy existing skills — walks any depth, copies every SKILL.md it finds
 function walkSkills(dir, relativeFrom = dir) {
