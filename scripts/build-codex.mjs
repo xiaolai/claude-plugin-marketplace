@@ -250,6 +250,14 @@ function walkSkills(dir, relativeFrom = dir) {
       const parentName = path.basename(path.dirname(fullPath));
       const destSkill = path.join(codexSkillsDir, parentName, 'SKILL.md');
       copySkill(fullPath, destSkill);
+      // Bundled resources (references/, scripts/, assets/) travel with the skill.
+      for (const sib of fs.readdirSync(path.dirname(fullPath), { withFileTypes: true })) {
+        if (sib.isDirectory() && ['references', 'scripts', 'assets'].includes(sib.name)) {
+          fs.cpSync(path.join(path.dirname(fullPath), sib.name), path.join(path.dirname(destSkill), sib.name), {
+            recursive: true,
+          });
+        }
+      }
       console.log(`  ✓ Skill ${parentName} → codex/skills/${parentName}/`);
     }
   }
