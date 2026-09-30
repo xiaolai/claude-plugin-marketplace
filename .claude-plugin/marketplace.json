@@ -6,6 +6,10 @@
   "metadata": {
     "description": "Claude Code plugins by xiaolai"
   },
+  "renames": {
+    "cc-bridge": null,
+    "codex-toolkit": null
+  },
   "plugins": [
     {
       "name": "cc-suite",
@@ -312,29 +316,6 @@
         "judgment",
         "anti-sycophancy",
         "first-principles"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "cc-bridge",
-      "source": {
-        "source": "github",
-        "repo": "xiaolai/cc-bridge-for-claude"
-      },
-      "description": "DEPRECATED — superseded by cc-suite (github.com/xiaolai/cc-suite). Bridge a project's AI config across Claude Code, Codex CLI, and Gemini CLI.",
-      "version": "0.1.0",
-      "author": {
-        "name": "xiaolai"
-      },
-      "repository": "https://github.com/xiaolai/cc-bridge-for-claude",
-      "license": "ISC",
-      "keywords": [
-        "codex",
-        "gemini",
-        "agents-md",
-        "mcp",
-        "bridge",
-        "multi-tool"
       ],
       "category": "developer-tools"
     },
