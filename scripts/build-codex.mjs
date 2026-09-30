@@ -21,7 +21,8 @@
 //   - Validate Codex schema correctness (no published schema yet)
 //   - Translate Task() calls inside command bodies — these need human review
 //   - Generate skill cross-references ($skill-name syntax) — left to the author
-//   - Handle hook config (hooks/hooks.json is byte-compatible per research; copy verbatim)
+//   - Map hook events: hooks/ is copied to codex/hooks/ with env vars shimmed, and events Codex
+//     lacks (e.g. TaskCompleted) are only warned about — remove them by hand
 //
 // After running this script, hand-review every generated SKILL.md and the AGENTS.md.
 
@@ -304,11 +305,11 @@ if (fs.existsSync(path.join(pluginDir, '.claude/rules'))) {
 }
 if (fs.existsSync(path.join(pluginDir, 'hooks/hooks.json'))) {
   const hookContent = fs.readFileSync(path.join(pluginDir, 'hooks/hooks.json'), 'utf8');
-  if (hookContent.includes('SessionEnd')) {
-    warnings.push('hooks.json references SessionEnd — Codex has no SessionEnd event. Migrate logic to Stop or out-of-band trigger');
-  }
-  if (hookContent.includes('SubagentStop') || hookContent.includes('PreCompact') || hookContent.includes('Notification')) {
-    warnings.push('hooks.json uses an event Codex does not support (SubagentStop / PreCompact / Notification)');
+  // Codex CLI 0.159 hook events. SessionEnd, SubagentStop and PreCompact exist; these do not.
+  const unsupported = ['Notification', 'FileChanged', 'StopFailure', 'TaskCompleted', 'TaskCreated', 'TeammateIdle', 'CwdChanged', 'ConfigChange', 'InstructionsLoaded', 'WorktreeCreate', 'WorktreeRemove', 'Elicitation', 'ElicitationResult', 'PostToolUseFailure', 'PermissionDenied'];
+  const events = Object.keys(JSON.parse(hookContent).hooks || {});
+  for (const ev of events.filter((e) => unsupported.includes(e))) {
+    warnings.push(`hooks.json uses ${ev}, which Codex does not have — remove it from codex/hooks/hooks.json and document the gap`);
   }
 }
 const commandsSharedDir = path.join(pluginDir, 'commands/shared');
