@@ -239,6 +239,41 @@ if (fs.existsSync(codexDir) && !process.argv.includes('--force')) {
   console.error(`\nRefusing to clobber existing ${codexDir}. Pass --force to overwrite.`);
   process.exit(1);
 }
+
+// Skills, agents and commands all land in one flat codex/skills/ namespace, and agents and commands
+// share one prefix, so two sources can map to the same directory (echo-sleuth has both
+// agents/recall.md and commands/recall.md); the later write would silently replace the earlier.
+// Plan every destination first and refuse before writing anything.
+function refuseSkillNameCollisions() {
+  const planned = new Map();
+  const claim = (name, source) => {
+    if (planned.has(name)) {
+      console.error(`\nSkill name collision: ${planned.get(name)} and ${source} both become codex/skills/${name}/.`);
+      console.error('Rename one of them, or hand-build that part of the Codex layout.');
+      process.exit(1);
+    }
+    planned.set(name, source);
+  };
+  const walk = (dir) => {
+    if (!fs.existsSync(dir)) return;
+    for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+      const fullPath = path.join(dir, entry.name);
+      if (entry.isDirectory()) walk(fullPath);
+      else if (entry.name === 'SKILL.md') {
+        claim(path.basename(path.dirname(fullPath)), path.relative(pluginDir, fullPath));
+      }
+    }
+  };
+  walk(path.join(pluginDir, 'skills'));
+  for (const kind of ['agents', 'commands']) {
+    const dir = path.join(pluginDir, kind);
+    if (!fs.existsSync(dir)) continue;
+    for (const file of fs.readdirSync(dir)) {
+      if (file.endsWith('.md')) claim(`${skillPrefix}-${path.basename(file, '.md')}`, `${kind}/${file}`);
+    }
+  }
+}
+refuseSkillNameCollisions();
 writeCodexManifest(claudeManifest);
 
 // Copy existing skills — walks any depth, copies every SKILL.md it finds
