@@ -9,7 +9,8 @@
   "renames": {
     "cc-bridge": null,
     "codex-toolkit": null,
-    "anthropic-docs": null
+    "anthropic-docs": null,
+    "mermaid-preview": null
   },
   "plugins": [
     {
@@ -224,28 +225,6 @@
         "grammar",
         "translation",
         "non-native"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "mermaid-preview",
-      "source": {
-        "source": "github",
-        "repo": "xiaolai/mermaid-preview-for-claude"
-      },
-      "description": "Auto-preview Mermaid diagrams in the browser on Write/Edit/MultiEdit/NotebookEdit — offline-safe (inlined bundle), dark-mode aware, auto-reload on source change, per-file preview with LRU retention.",
-      "version": "0.1.6",
-      "author": {
-        "name": "xiaolai"
-      },
-      "repository": "https://github.com/xiaolai/mermaid-preview-for-claude",
-      "license": "ISC",
-      "keywords": [
-        "mermaid",
-        "diagrams",
-        "preview",
-        "docs",
-        "markdown"
       ],
       "category": "developer-tools"
     },
