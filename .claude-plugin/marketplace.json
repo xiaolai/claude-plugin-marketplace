@@ -229,6 +229,29 @@
       "category": "developer-tools"
     },
     {
+      "name": "rich-terminal",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/claude-rich-terminal"
+      },
+      "description": "Mermaid diagrams drawn inside Claude Code replies, with optional terminal images (Ghostty, kitty) and a full offline browser view.",
+      "version": "0.1.0",
+      "author": {
+        "name": "xiaolai"
+      },
+      "homepage": "https://github.com/xiaolai/claude-rich-terminal",
+      "repository": "https://github.com/xiaolai/claude-rich-terminal",
+      "license": "MIT",
+      "keywords": [
+        "mermaid",
+        "diagrams",
+        "terminal",
+        "mod",
+        "markdown"
+      ],
+      "category": "developer-tools"
+    },
+    {
       "name": "ui-tokenize",
       "source": {
         "source": "github",
