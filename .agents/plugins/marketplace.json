@@ -252,17 +252,17 @@
       "category": "Coding"
     },
     {
-      "name": "claude-english-buddy",
+      "name": "english-buddy",
       "source": {
         "source": "url",
-        "url": "https://github.com/xiaolai/claude-english-buddy-for-claude.git"
+        "url": "https://github.com/xiaolai/english-buddy-for-claude.git"
       },
       "description": "English coaching with configurable on-demand and sampled modes, bounded provider calls, literal-preservation checks and progress reports; the original user prompt remains authoritative.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "author": {
         "name": "xiaolai"
       },
-      "repository": "https://github.com/xiaolai/claude-english-buddy-for-claude",
+      "repository": "https://github.com/xiaolai/english-buddy-for-claude",
       "license": "ISC",
       "keywords": [
         "english",

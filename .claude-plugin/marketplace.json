@@ -10,7 +10,8 @@
     "cc-bridge": null,
     "codex-toolkit": null,
     "anthropic-docs": null,
-    "mermaid-preview": null
+    "mermaid-preview": null,
+    "claude-english-buddy": "english-buddy"
   },
   "plugins": [
     {
@@ -206,17 +207,17 @@
       "category": "developer-tools"
     },
     {
-      "name": "claude-english-buddy",
+      "name": "english-buddy",
       "source": {
         "source": "github",
-        "repo": "xiaolai/claude-english-buddy-for-claude"
+        "repo": "xiaolai/english-buddy-for-claude"
       },
       "description": "English coaching with configurable on-demand and sampled modes, bounded provider calls, literal-preservation checks and progress reports; the original user prompt remains authoritative.",
-      "version": "0.7.0",
+      "version": "0.8.0",
       "author": {
         "name": "xiaolai"
       },
-      "repository": "https://github.com/xiaolai/claude-english-buddy-for-claude",
+      "repository": "https://github.com/xiaolai/english-buddy-for-claude",
       "license": "ISC",
       "keywords": [
         "english",
