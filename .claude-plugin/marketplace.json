@@ -11,7 +11,8 @@
     "codex-toolkit": null,
     "anthropic-docs": null,
     "mermaid-preview": null,
-    "claude-english-buddy": "english-buddy"
+    "claude-english-buddy": "english-buddy",
+    "dev-team": null
   },
   "plugins": [
     {
@@ -445,29 +446,6 @@
         "routing",
         "reasoning",
         "cost"
-      ],
-      "category": "developer-tools"
-    },
-    {
-      "name": "dev-team",
-      "source": {
-        "source": "github",
-        "repo": "xiaolai/dev-team-for-claude"
-      },
-      "description": "Per-project development roles with separate planner, tester, coder and auditor contexts; validation follows the kind of change, with behavioral changes retaining tests-first gates.",
-      "version": "0.2.0",
-      "author": {
-        "name": "xiaolai"
-      },
-      "repository": "https://github.com/xiaolai/dev-team-for-claude",
-      "license": "ISC",
-      "keywords": [
-        "agents",
-        "team",
-        "tdd",
-        "code-review",
-        "codex",
-        "release"
       ],
       "category": "developer-tools"
     }
