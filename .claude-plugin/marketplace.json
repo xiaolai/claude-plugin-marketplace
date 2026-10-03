@@ -237,7 +237,7 @@
         "repo": "xiaolai/claude-rich-terminal"
       },
       "description": "Mermaid diagrams drawn inside Claude Code replies, with optional terminal images (Ghostty, kitty) and a full offline browser view.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "author": {
         "name": "xiaolai"
       },
