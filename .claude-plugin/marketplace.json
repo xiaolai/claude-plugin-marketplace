@@ -237,7 +237,7 @@
         "repo": "xiaolai/claude-rich-terminal"
       },
       "description": "Mermaid diagrams drawn inside Claude Code replies (optional Ghostty/kitty images, offline browser view), plus a truecolor status line under the prompt: git, model, context with a Token Weather forecast, cost and rate limits.",
-      "version": "0.6.1",
+      "version": "0.6.2",
       "author": {
         "name": "xiaolai"
       },
