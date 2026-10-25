@@ -450,6 +450,31 @@
         "cost"
       ],
       "category": "developer-tools"
+    },
+    {
+      "name": "dev-office",
+      "source": {
+        "source": "github",
+        "repo": "xiaolai/dev-office"
+      },
+      "description": "A lean, self-measuring dev office for Claude Code and Codex CLI: three short agents (planner, implementer, verifier), four skills (adr, release, repo-init, tidy), perception hooks, test tiers, git routine and tidy, all host-neutral behind a single dispatcher with a four-layer config resolver (defaults, user, repo, repo-local).",
+      "version": "0.1.1",
+      "author": {
+        "name": "xiaolai"
+      },
+      "repository": "https://github.com/xiaolai/dev-office",
+      "license": "ISC",
+      "keywords": [
+        "agents",
+        "codex",
+        "skills",
+        "hooks",
+        "testing",
+        "adr",
+        "release",
+        "multi-tool"
+      ],
+      "category": "developer-tools"
     }
   ]
 }
